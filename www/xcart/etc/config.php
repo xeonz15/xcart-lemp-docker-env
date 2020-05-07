@@ -16,14 +16,14 @@
 ; ----------------------
 ;
 [database_details]
-hostspec = "mysql"
-socket = ""
-port = "3306"
-database = "xcart"
-username = "root"
-password = "secret"
-table_prefix = "xc_"
-charset = "utf8mb4"
+hostspec = ""
+socket   = ""
+port     = ""
+database = ""
+username = ""
+password = ""
+table_prefix = "xlite_"
+charset = "utf8"
 
 ;
 ; ----------------------
@@ -85,8 +85,8 @@ servers=
 ;   https://www.yourhost.com
 ;
 [host_details]
-http_host = "192.168.0.13"
-https_host = "192.168.0.13"
+http_host = ""
+https_host = ""
 web_dir = ""
 domains = ""
 admin_self = "admin.php"
@@ -135,7 +135,7 @@ category_clean_urls_format = "domain/parent/goalcategory/"
 ;
 ; Changing this setting will not affect existing url's
 ; and requires to re-deploy your store
-product_clean_urls_format = domain/goalproduct
+product_clean_urls_format = "domain/goalproduct"
 
 ; Static page Clean URL’s format
 ; possible values:
@@ -144,7 +144,7 @@ product_clean_urls_format = domain/goalproduct
 ;
 ; Changing this setting will not affect existing url's
 ; and requires to re-deploy your store
-static_page_clean_urls_format = domain/goalpage
+static_page_clean_urls_format = "domain/goalpage"
 
 ; Sale discount page Clean URL’s format
 ; possible values:
@@ -162,7 +162,7 @@ sale_discount_clean_urls_format = "domain/goaldiscount"
 ;
 ; Changing this setting will not affect existing url's
 ; and requires to re-deploy your store
-vendor_clean_urls_format = domain/goalvendor
+vendor_clean_urls_format = "domain/goalvendor"
 
 ; News Clean URL’s format
 ; possible values:
@@ -171,7 +171,7 @@ vendor_clean_urls_format = domain/goalvendor
 ;
 ; Changing this setting will not affect existing url's
 ; and requires to re-deploy your store
-news_clean_urls_format = domain/goalnews
+news_clean_urls_format = "domain/goalnews"
 
 [clean_urls_aliases]
 ; to define your own alias add line below as:
@@ -227,8 +227,8 @@ image_magick_path =
 ; Installation authcode is created authomatically and stored in this section.
 ;
 [installer_details]
-auth_code = "91EFA4IRT54NWRDF6N6S9C9RK5ZI5CKA"
-shared_secret_key = "5eb0417c1243a0.75991887"
+auth_code = ""
+shared_secret_key = ""
 
 ;
 ; Some options to optimize the store
@@ -287,22 +287,22 @@ tar_path =
 ; Language options
 ;
 [language]
-default = ru
+default = en
 
 ;
 ; Installation parameters
 ;
 [installation]
-installation_lng = ru
+installation_lng = en
 
 ;
 ; AMQP server
 ;
 [amqp]
 host     = "localhost"
-port = "3306"
+port     = 5672
 user     = "guest"
-password = "secret"
+password = "guest"
 vhost    = "/"
 exchange = "xlite"
 
