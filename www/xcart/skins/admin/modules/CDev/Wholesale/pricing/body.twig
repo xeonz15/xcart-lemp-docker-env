@@ -1,0 +1,17 @@
+{##
+ # Wholesales list
+ #}
+
+{{ widget_list('wholesale_prices.info_message') }}
+
+{% if this.isWarningMessageEnabled() %}
+  <div class="alert alert-warning" role="alert">
+    {{ this.getWholesaleWarningMessage() | raw }}
+  </div>
+{% endif %}
+
+{% form 'XLite\\Module\\CDev\\Wholesale\\View\\Form\\WholesalePrices' %}
+
+  {{ widget('XLite\\Module\\CDev\\Wholesale\\View\\ItemsList\\WholesalePrices') }}
+
+{% endform %}

@@ -1,0 +1,12 @@
+{##
+ # @ListChild(list="onboarding-wizard.header", weight="100")
+ #}
+
+<div
+  class="onboarding-wizard-header">
+  <div class="intro-text" v-if="isCurrentStep('intro')" transition="fade-in-out">
+    <h2 class="heading">{{ t('onboarding.intro.heading') }}</h2>
+    <p class="text">{{ t('onboarding.intro.text')|raw }}</p>
+  </div>
+  {{ widget('XLite\\Module\\XC\\Onboarding\\View\\WizardProgress') }}
+</div>

@@ -1,0 +1,38 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Layout styles
+ *
+ * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+ * See https://www.x-cart.com/license-agreement.html for license details.
+ */
+
+.lc-minicart .items-list {
+  padding: 10px;
+  width: 345px;
+}
+
+.or-line .or {
+  font-size: 10px;
+}
+
+.lc-minicart .buttons-row {
+  white-space: nowrap;
+}
+
+body.two-sidebars .order-part-wrapper {
+    float: none;
+    display: block;
+}
+body.two-sidebars .order-body-item .title {
+    height: 150px;
+}
+
+body.two-sidebars div.order-statuses {
+    padding-left: 15px;
+}
+
+.navbar-nav > li > a{
+  padding-left: 15px;
+  padding-right: 15px;
+}

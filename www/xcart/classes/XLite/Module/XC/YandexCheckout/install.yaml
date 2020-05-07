@@ -1,0 +1,166 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Payment\Method:
+  - service_name: YandexCheckout
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    type: C
+    countries: ['', AM, AZ, BG, BY, CN, CY, DE, KG, KZ, LV, MD, RU, TH, TJ, UA, UZ]
+    translations: [{ code: en, name: Yandex.Checkout }, { code: ru, name: 'Яндекс.Касса, выбор способа оплаты на стороне Кассы' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: true }, { name: defaultVATRate, value: 1 }]
+  - service_name: YandexCheckout.bank_card
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    added: true
+    type: C
+    countries: ['', AM, AZ, BG, BY, CN, CY, DE, KG, KZ, LV, MD, RU, TH, TJ, UA, UZ]
+    translations: [{ code: en, name: 'Yandex.Checkout with bank card payment' }, { code: ru, name: 'Яндекс.Касса, оплата банковской картой' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: true }, { name: defaultVATRate, value: 1 }]
+  - service_name: YandexCheckout.yandex_money
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    type: C
+    countries: [RU, AM, AZ, BY, DE, BG, CY, KZ, CN, KG, LV, MD, UA, UZ, TJ, TH]
+    translations: [{ code: en, name: 'Yandex.Checkout with Yandex.Money wallet' }, { code: ru, name: 'Яндекс.Касса, оплата со счета Яндекс.Деньги' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: true }, { name: defaultVATRate, value: 1 }]
+  - service_name: YandexCheckout.mobile_balance
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    type: C
+    countries: ['', AM, AZ, BG, BY, CN, CY, DE, KG, KZ, LV, MD, RU, TH, TJ, UA, UZ]
+    translations: [{ code: en, name: 'Yandex.Checkout with mobile account payment' }, { code: ru, name: 'Яндекс.Касса, оплата с мобильного телефона' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: 'Y' }, { name: defaultVATRate, value: 1 }]
+  - service_name: YandexCheckout.cash
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    type: C
+    countries: ['', AM, AZ, BG, BY, CN, CY, DE, KG, KZ, LV, MD, RU, TH, TJ, UA, UZ]
+    translations: [{ code: en, name: 'Yandex.Checkout with cash in terminal' }, { code: ru, name: 'Яндекс.Касса, оплата наличными в терминале' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: 'Y' }, { name: defaultVATRate, value: 1 }]
+  - service_name: YandexCheckout.webmoney
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    type: C
+    countries: ['', AM, AZ, BG, BY, CN, CY, DE, KG, KZ, LV, MD, RU, TH, TJ, UA, UZ]
+    translations: [{ code: en, name: 'Yandex.Checkout with WebMoney wallet' }, { code: ru, name: 'Яндекс.Касса, оплата через WebMoney' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: 'Y' }, { name: defaultVATRate, value: 1 }]
+  - service_name: YandexCheckout.sberbank
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    type: C
+    countries: [RU, BY]
+    translations: [{ code: en, name: 'Yandex.Checkout with Sberbank Online' }, { code: ru, name: 'Яндекс.Касса, оплата через Сбербанк Онлайн' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: 'Y' }, { name: defaultVATRate, value: 1 }]
+  - service_name: YandexCheckout.qiwi
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    type: C
+    countries: [RU, AM, AZ, BY, DE, BG, CY, KZ, CN, KG, LV, MD, UA, UZ, TJ, TH]
+    translations: [{ code: en, name: 'Yandex.Checkout with QIWI Wallet' }, { code: ru, name: 'Яндекс.Касса, оплата через QIWI Wallet' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: 'Y' }, { name: defaultVATRate, value: 1 }]
+  - service_name: YandexCheckout.alfabank
+    class: Module\XC\YandexCheckout\Model\Payment\Processor\YandexCheckout
+    type: C
+    countries: [RU, AM, AZ, BY, DE, BG, CY, KZ, CN, KG, LV, MD, UA, UZ, TJ, TH]
+    translations: [{ code: en, name: 'Yandex.Checkout with Alfa-Click' }, { code: ru, name: 'Яндекс.Касса, оплата через Альфа-Клик' }]
+    settings: [{ name: type, value: sale }, { name: shopId }, { name: scid }, { name: customerContactMode, value: phone }, { name: prefix, value: xcart }, { name: sendReceiptData, value: 'Y' }, { name: defaultVATRate, value: 1 }]
+XLite\Model\LanguageLabel:
+  - name: 'URL for payment notifications'
+    translations: [{ code: en, label: 'URL for payment notifications' }]
+  - name: shopId
+    translations: [{ code: en, label: shopId }]
+  - name: 'Secret key'
+    translations: [{ code: en, label: 'Secret key' }]
+  - name: 'Order prefix'
+    translations: [{ code: en, label: 'Order prefix' }]
+  - name: 'Test/Live mode'
+    translations: [{ code: en, label: 'Test/Live mode' }]
+  - name: 'Payment transaction is in progress. Please, try again later.'
+    translations: [{ code: en, label: 'Payment transaction is in progress. Please, try again later.' }]
+  - name: 'Payment transaction failure.'
+    translations: [{ code: en, label: 'Payment transaction failure.' }]
+  - name: 'VAT Rate'
+    translations: [{ code: en, label: 'VAT Rate' }]
+  - name: 'Default VAT Rate'
+    translations: [{ code: en, label: 'Default VAT Rate' }]
+  - name: 'Send the receipt data to Yandex.Checkout (54-FZ)'
+    translations: [{ code: en, label: 'Send the receipt data to Yandex.Checkout (54-FZ)' }]
+  - name: yandex-checkout-shopid-description
+    translations: [{ code: en, label: 'Copy shopId from the Settings section of your Yandex.Checkout Merchant Profile.' }]
+  - name: yandex-checkout-scid-description
+    translations: [{ code: en, label: 'The secret key can be issued (as well as re-issued and deleted upon expiration) in the Settings section of your Yandex.Checkout Merchant Profile.' }]
+  - name: vat-rate-description
+    translations: [{ code: en, label: 'You can apply different VAT rates on the specific tax classes <a href=''{{taxClassesUrl}} target=''_blank''>here</a>. The value applied to the product will be transferred together with other fiscal data if Yandex.Checkout is connected with an online sales register.' }]
+  - name: yandex-checkout-callback-url-help
+    translations: [{ code: en, label: 'This URL should be submitted on Yandex.Checkout settings to enable the processing of payment notifications.' }]
+  - name: 'No VAT'
+    translations: [{ code: en, label: 'No VAT' }]
+  - name: '0% VAT'
+    translations: [{ code: en, label: '0% VAT' }]
+  - name: '10% VAT'
+    translations: [{ code: en, label: '10% VAT' }]
+  - name: '20% VAT'
+    translations: [{ code: en, label: '20% VAT' }]
+  - name: '10/110 VAT'
+    translations: [{ code: en, label: '10/110 VAT' }]
+  - name: '20/120 VAT'
+    translations: [{ code: en, label: '20/120 VAT' }]
+  - name: 'Common payment'
+    translations: [{ code: en, label: 'Common payment' }]
+  - name: 'Delayed payment'
+    translations: [{ code: en, label: 'Delayed payment' }]
+  - name: payment-mode-description
+    translations: [{ code: en, label: 'In contrast to the standard payment process with a bank card, a deferred payment is processed in two stages: first the money is placed on hold on the user’s card, and then it is debited at your request. This payment method is also referred to as placing a hold, or pre-authorization.' }]
+  - name: certificate-description
+    translations: [{ code: en, label: 'The certificate is required for using Yandex.Money protocols to conduct financial transactions within the payment management protocol (MWS): returns, deferred payments, and others.' }]
+  - name: 'Yandex.Checkout is not configured and cannot be used.'
+    translations: [{ code: en, label: 'Yandex.Checkout is not configured and cannot be used.' }]
+  - name: 'Yandex.Checkout cannot be used because the option "Display prices in catalog including VAT / GST" in VAT settings is disabled.'
+    translations: [{ code: en, label: 'Yandex Payment Solution cannot be used because the option "Display prices in catalog including VAT / GST" in <a href="{{url}}">VAT / GST settings</a> is disabled.' }]
+  - name: Yandex
+    translations: [{ code: en, label: Yandex }]
+  - name: 'A simple service providing online payments — for live and business.'
+    translations: [{ code: en, label: 'A simple service providing online payments — for live and business.' }]
+  - name: Yandex.Checkout
+    translations: [{ code: en, label: Yandex.Checkout }]
+  - name: 'Order payment [id] for [store]'
+    translations: [{ code: en, label: 'Order payment ({{id}}) for "{{store}}"' }]
+  - name: 'Launch Yandex'
+    translations: [{ code: en, label: Launch }]
+  - name: 'Configure (Yandex.Checkout)'
+    translations: [{ code: en, label: Настроить }]
+  - name: 'Payment subject'
+    translations: [{ code: en, label: 'Payment subject' }]
+  - name: ym_subj_commodity
+    translations: [{ code: en, label: Commodity }]
+  - name: ym_subj_excise
+    translations: [{ code: en, label: Excise }]
+  - name: ym_subj_job
+    translations: [{ code: en, label: Job }]
+  - name: ym_subj_service
+    translations: [{ code: en, label: Service }]
+  - name: ym_subj_gambling_bet
+    translations: [{ code: en, label: 'Gambling bet' }]
+  - name: ym_subj_gambling_prize
+    translations: [{ code: en, label: 'Gambling prize' }]
+  - name: ym_subj_lottery
+    translations: [{ code: en, label: Lottery }]
+  - name: ym_subj_lottery_prize
+    translations: [{ code: en, label: 'Lottery prize' }]
+  - name: ym_subj_intellectual_activity
+    translations: [{ code: en, label: 'Intellectual activity' }]
+  - name: ym_subj_payment
+    translations: [{ code: en, label: Payment }]
+  - name: ym_subj_agent_commission
+    translations: [{ code: en, label: 'Agent commission' }]
+  - name: ym_subj_composite
+    translations: [{ code: en, label: Composite }]
+  - name: ym_subj_another
+    translations: [{ code: en, label: Another }]
+  - name: 'Invalid payment subject value'
+    translations: [{ code: en, label: 'Invalid payment subject value' }]
+  - name: 'Default payment subject will be assigned'
+    translations: [{ code: en, label: 'Default payment subject will be assigned' }]
+  - name: 'Send OFD check to'
+    translations: [{ code: en, label: 'Send OFD check to' }]
+  - name: '[customer_contact_yandex] Email'
+    translations: [{ code: en, label: Email }]
+  - name: '[customer_contact_yandex] Phone'
+    translations: [{ code: en, label: Phone }]

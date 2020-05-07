@@ -1,0 +1,18 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Metadata
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+version: 5.4.2.0
+type: common
+authorName: 'X-Cart team'
+moduleName: 'MailChimp Integration with E-commerce support'
+description: 'MailChimp is an email marketing service with powerful tools to manage your email campaigns and subscribers while gathering advanced analytics information on your campaign performance.'
+minorRequiredCoreVersion: 1
+dependsOn: {  }
+incompatibleWith: {  }
+skins: {  }
+showSettingsForm: true
+canDisable: true

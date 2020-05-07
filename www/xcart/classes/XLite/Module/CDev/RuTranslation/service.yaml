@@ -1,0 +1,389 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (RU)
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+Language: { code: 'ru', name: 'Русский' }
+
+LanguageLabel:
+  - { name: 'X-Cart online store builder', label: 'Конструктор онлайн магазина X-Cart' }
+  - { name: Language, label: Язык }
+  - { name: app-footer, label: '© 2002 - {0} Powered by X-Cart. {1} {2}' }
+  - { name: 'Admin area', label: 'Зона Администрирования' }
+  - { name: Storefront, label: 'Зона покупателя' }
+  - { name: 'Go to my', label: 'Перейти в' }
+  - { name: Modules, label: Модули }
+  - { name: Search, label: Поиск }
+  - { name: 'My purchases', label: 'Мои покупки' }
+  - { name: 'Sort by:', label: 'Сортировка:' }
+  - { name: 'Free & Paid', label: 'Бесплатный и Платный' }
+  - { name: Free, label: Бесплатный }
+  - { name: Paid, label: Платный }
+  - { name: Newest, label: 'По новизне' }
+  - { name: Alphabetically, label: 'По алфавиту' }
+  - { name: 'Most popular', label: 'По популярности' }
+  - { name: 'Hot addons', label: 'Популярные модули' }
+  - { name: 'Apply changes', label: 'Применить изменения' }
+  - { name: or, label: или }
+  - { name: upgrade-page-heading, label: 'Обновления и улучшения' }
+  - { name: upgrade-entry-module-author, label: 'от {0}' }
+  - { name: upgrade_minor, label: 'Мажорный апгрейд' }
+  - { name: upgrade_build, label: 'Минорный апгрейд' }
+  - { name: Marketplace, label: Маркетплейс }
+  - { name: 'Terms of use', label: 'Лицензионное соглашение' }
+  - { name: 'Knowledge base', label: 'База знаний' }
+  - { name: 'Developers docs', label: 'Документация для разработчиков' }
+  - { name: 'Report a bug', label: 'Сообщить об ошибке' }
+  - { name: 'Contact us', label: 'Напишите нам' }
+  - { name: 'Sign out', label: Выйти }
+  - { name: 'on', label: ВКЛ }
+  - { name: 'off', label: ВЫКЛ }
+  - { name: 'Upload addon description', label: 'Чтобы залить файл модуля, нажмите на кнопку ниже.<br>Файл должен иметь формат .tgz, .tar.gz или .tar.' }
+  - { name: update_available, label: 'Доступна версия {0}. {1}' }
+  - { name: update_module, label: 'Обновить модуль' }
+  - { name: core_restriction, label: 'Версия модуля не совместима с версией основного ПО. Модуль не может быть включён. Чтобы включить модуль, обновите магазин до версии {0}.' }
+  - { name: module_state_message.update_available, label: 'Доступна версия {0}. {1}' }
+  - { name: module_state_message.update_available.update_link, label: 'Обновить модуль' }
+  - { name: module_state_message.core_restriction.enable, label: ' Версия модуля не совместима с используемой версией X-Cart. Модуль не может быть включён. Чтобы включить модуль, обновите X-Cart до версии {0}.' }
+  - { name: module_state_message.core_restriction.install, label: 'Версия модуля не совместима с используемой версией X-Cart. Модуль не может быть включён. Чтобы включить модуль, обновите X-Cart до версии {0}.' }
+  - { name: module_state_message.core_restriction.upgrade_request, label: 'Модуль не поддерживается используемой версией X-Cart.' }
+  - { name: module_state_message.core_restriction.install.requested, label: 'Версия модуля не совместима с используемой версией X-Cart. Модуль не может быть включён. Чтобы включить модуль, обновите X-Cart до версии {0}. Запрошено обновление.' }
+  - { name: module_state_message.core_restriction.upgrade_request.requested, label: 'Модуль не совместим с используемой версией X-Cart. Запрошено обновление.' }
+  - { name: module_state_message.module_restriction.disable, label: 'Модуль не может быть отключён из-за ограничений архитектуры модуля.' }
+  - { name: module_state_message.module_restriction.requiredBy, label: 'Отключение не возможно!. Модуль требуется для: {0}' }
+  - { name: module_state_message.module_restriction.incompatibleWith, label: 'Чтобы включить этот модуль, модуль {0} должен быть отключен. ' }
+  - { name: module_state_message.module_restriction.dependsOn, label: 'Чтобы включить этот модуль, модуль {0} должен быть включен.' }
+  - { name: module_state_message.module_restriction.moduleName, label: '{0} (от {1})' }
+  - { name: module_state_message.license_expired, label: 'Новые функции и обновления недоступны для этого ключа. {0}' }
+  - { name: module_state_message.license_expired.renew_key_link, label: 'Обновите ключ прямо сейчас' }
+  - { name: module_state_message.license_pending, label: 'Платеж в процессе обработки. Ключ для установки модуля будет выслан на ваш адрес электронной почты как только обработка будет завершена. Вы сможете использовать данный ключ для установки модуля в любое удобное для вас время.' }
+  - { name: module_state_message.trial.paid, label: 'Платный модуль (бесплатный для пакета "Всё включено". )' }
+  - { name: module_state_message.trial.multivendor, label: 'Доступен для пакетов "Мультивендор" и "Всё включено".' }
+  - { name: module_state_message.edition.unavailable, label: 'Купите лицензию {0}, чтобы установить модуль' }
+  - { name: module_state_message.edition.unavailable.or, label: ' или ' }
+  - { name: activate_license_dialog.title.core, label: 'Сначала активируйте магазин X-Cart' }
+  - { name: activate_license_dialog.title.module, label: 'Ввести лицензионный ключ' }
+  - { name: activate_license_dialog.disclaimer.core, label: 'Перед установкой платного модуля вам необходимо активировать лицензию X-Cart для этого магазина' }
+  - { name: activate_license_dialog.disclaimer.module, label: 'Для активации лицензии X-Cart или коммерческого модуля введите лицензионный ключ в поле ниже и нажмите ''Активировать''.' }
+  - { name: activate_license_dialog.input.placeholder, label: 'Введите лицензионный ключ' }
+  - { name: activate_license_dialog.button.activate, label: Активировать }
+  - { name: activate_license_dialog.button.register, label: Регистрация }
+  - { name: activate_license_dialog.button.purchase, label: 'Купить лицензию' }
+  - { name: activate_license_dialog.link.activate_free_license, label: 'Активировать базовую лицензию X-Cart и отказаться от улучшенного функционала' }
+  - { name: activate_license_dialog.contact_xcart, label: '{0} если у Вас есть вопросы' }
+  - { name: activate_license_dialog.link.contact_xcart, label: 'Напишите команде X-Cart' }
+  - { name: activate_license_dialog.result.success.core, label: 'Лицензионный ключ X-Cart успешно подтверждён' }
+  - { name: activate_license_dialog.result.success.module, label: 'Лицензионный ключ успешно подтверждён и активирован для модуля "{0}" от разработчика"{1}".' }
+  - { name: activate_license_dialog.result.invalid, label: 'Ошибка регистрации лицензии: {2} ({1})' }
+  - { name: activate_license_dialog.result.empty_key, label: 'Пожалуйста, введите ключ лицензии' }
+  - { name: module_action.upgrade_request, label: 'Запрос на обновление' }
+  - { name: module_action.pack_it, label: 'Архивировать' }
+  - { name: module_action.settings, label: 'Настройки' }
+  - { name: module_action.install, label: 'Установить модуль' }
+  - { name: module_action.purchase, label: 'Купить' }
+  - { name: module_action.remove, label: 'Удалить модуль' }
+  - { name: module_action.upgrade_addon.remove, label: 'Удалить модуль' }
+  - { name: module_action.upgrade_addon.build, label: 'Обновить модуль' }
+  - { name: module_action.upgrade_addon.minor, label: 'Обновить модуль' }
+  - { name: module_action.manage_layout, label: 'Изменить шаблон' }
+  - { name: module_action.activate_key, label: 'Активировать ключ' }
+  - { name: module.author, label: Разработчик }
+  - { name: module.rating, label: Оценки }
+  - { name: module.downloads, label: Загрузки }
+  - { name: module.description, label: Описание }
+  - { name: module.price, label: Цена }
+  - { name: module.price.free, label: Бесплатно }
+  - { name: module.version, label: Версия }
+  - { name: module.view_details.marketplace, label: 'Посмотреть подробное описание в маркетплейс' }
+  - { name: module.state.enabled, label: Включён }
+  - { name: module.state.disabled, label: Отключен }
+  - { name: module.state.installed, label: Установлен }
+  - { name: module.state.not-installed, label: 'Не установлен' }
+  - { name: module.license.expiration, label: 'истекает {0}' }
+  - { name: module.license.expiration.unlimited, label: бессрочная }
+  - { name: module.upgrade.author, label: 'от {0}' }
+  - { name: separator.or, label: или }
+  - { name: landing_section.show_all, label: 'Показать все' }
+  - { name: controls.activate_license_key, label: 'Активировать лицензионный ключ' }
+  - { name: controls.upload_addon, label: 'Загрузить модуль' }
+  - { name: controls.upload_addon.phar-error, label: 'Для загрузки модулей необходимо расширение Phar. Пожалуйста, обратитесь в поддержку своего хостинг-провайдера для настройки данного параметра.' }
+  - { name: controls.renew_license_key, label: 'Обновить доступ до обновлений' }
+  - { name: controls.re-validate_license_key, label: 'Повторно подтвердить лицензионные ключи' }
+  - { name: header.addons_search_title, label: 'Результаты поиска по запросу "{0}"' }
+  - { name: upgrade.install_updates, label: 'Установить обновления' }
+  - { name: restricted-modules.warning, label: 'Список модулей, недоступных в Базовом пакете. После активации бесплатной лицензии все эти модули будут автоматически удалены из магазина.' }
+  - { name: free_license_page.info, label: 'Базовый (бесплатный) пакет имеет ограниченный набор функционала, поэтому все модули пакета Бизнес будут удалены из Вашего магазина. Тем не менее у Вас останется возможность в любое время купить коммерческую лицензию и установить все модули, входящие соответствующий пакет.' }
+  - { name: free_license_page.email.placeholder, label: 'Введите электронный адрес' }
+  - { name: free_license_page.activate_free_license, label: 'Активируйте бесплатную лицензию' }
+  - { name: 'Version: X', label: 'Версия: {version}' }
+  - { name: 'Service version: X', label: 'Версия сервисной программы: {version}' }
+  - { name: 'License: X', label: 'Лицензия: {license}' }
+  - { name: 'Installation date: X', label: 'Дата установки: {date}' }
+  - { name: 'Private and custom modules:', label: 'Модули от разработчиков для частного использования:' }
+  - { name: 'Public installed modules:', label: 'Установленные общедоступные модули:' }
+  - { name: support_page.none, label: None }
+  - { name: support_page.table.developer, label: Developer }
+  - { name: support_page.table.module_name, label: 'Имя модуля' }
+  - { name: support_page.table.version, label: Версия }
+  - { name: support_page.table.installation_date, label: 'Дата установки' }
+  - { name: navigation.all_addons, label: 'Все модули' }
+  - { name: navigation.templates, label: Шаблоны }
+  - { name: navigation.my_addons, label: 'Мои модули' }
+  - { name: navigation.purchases, label: Покупки }
+  - { name: navigation.updates_and_upgrades, label: Обновления }
+  - { name: integrity_page.title, label: 'Проверка целостности' }
+  - { name: integrity_page.results.empty, label: 'Целостность не подтверждена. Инициируйте проверку целостности, нажав на кнопку "Проверить статус целостности".' }
+  - { name: integrity_page.type.modified, label: Изменены }
+  - { name: integrity_page.type.removed, label: Удалены }
+  - { name: integrity_page.type.added, label: Добавлены }
+  - { name: integrity_page.type.unknown, label: Неизвестный }
+  - { name: integrity_page.refresh, label: 'Обновить данные о целостности файлов' }
+  - { name: rebuild.download_packs.state, label: 'Загрузка файлов {0} / {1}' }
+  - { name: rebuild.download_packs.state.finished, label: 'Файлы загружены {0} / {1}' }
+  - { name: rebuild.unpack_packs.state, label: 'Распаковка файлов {0} / {1}' }
+  - { name: rebuild.unpack_packs.state.finished, label: 'Файлы распакованы {0} / {1}' }
+  - { name: rebuild.check_packs.state, label: 'Сканирование файлов на изменения {0} / {1}' }
+  - { name: rebuild.check_packs.state.warnings, label: 'Сканирование файлов на изменения {0} / {1} (предупреждение: {2})' }
+  - { name: rebuild.check_packs.state.finished, label: 'Файлы проверены на изменения {0} / {1}' }
+  - { name: rebuild.check_packs.state.finished.warnings, label: 'Файлы проверены на изменения {0} / {1} (предупреждение: {2})' }
+  - { name: rebuild.move_packs.state, label: 'Обновление файлов и создание резервной копии основного кода {0} / {1}' }
+  - { name: rebuild.move_packs.state.finished, label: 'Обновление файлов завершено. Создана резервная копия основного кода {0} / {1}' }
+  - { name: rebuild.check_fs.state, label: 'Проверка прав доступа к файловой системе {0} / {1}' }
+  - { name: rebuild.check_fs.state.finished, label: 'Права доступа к файловой системе проверены {0} / {1}' }
+  - { name: rebuild.hook.disable.state, label: 'Применение хуков ({2}) {0} / {1}' }
+  - { name: rebuild.hook.disable.state.finished, label: 'Применение хуков завершено ({2}) {0} / {1}' }
+  - { name: rebuild.hook.remove.state, label: 'Применение хуков ({2}) {0} / {1}' }
+  - { name: rebuild.hook.remove.state.finished, label: 'Применение хуков завершено({2}) {0} / {1}' }
+  - { name: rebuild.hook.pre_upgrade.state, label: 'Наложение предапгрейдных хуков {0} / {1}' }
+  - { name: rebuild.hook.pre_upgrade.state.finished, label: 'Наложение предапгрейдных хуков завершено {0} / {1}' }
+  - { name: rebuild.hook.post_upgrade.state, label: 'Наложение постапгрейдных хуков {0} / {1}' }
+  - { name: rebuild.hook.post_upgrade.state.finished, label: 'Наложение постапгрейдных хуков завершено {0} / {1}' }
+  - { name: rebuild.hook.install.state, label: 'Применение хуков ({2}) {0} / {1}' }
+  - { name: rebuild.hook.install.state.finished, label: 'Применение хуков завершено({2}) {0} / {1}' }
+  - { name: rebuild.hook.enable.state, label: 'Применение хуков ({2}) {0} / {1}' }
+  - { name: rebuild.hook.enable.state.finished, label: 'Применение хуков завершено ({2}) {0} / {1}' }
+  - { name: rebuild.hook.rebuild.state, label: 'Применение хуков ({2}) {0} / {1}' }
+  - { name: rebuild.hook.rebuild.state.finished, label: 'Применение хуков завершено ({2}) {0} / {1}' }
+  - { name: rebuild.hook.post_rebuild.state, label: 'Наложение поствосстановительных хуков {0} / {1}' }
+  - { name: rebuild.hook.post_rebuild.state.finished, label: 'Наложение поствосстановительных хуков завершено {0} / {1}' }
+  - { name: rebuild.hook.post_rollback.state, label: 'Наложение хуков отката изменений {0} / {1}' }
+  - { name: rebuild.hook.post_rollback.state.finished, label: 'Наложение хуков отката изменений завершено {0} / {1}' }
+  - { name: rebuild.update_modules_list.state, label: 'Обновление статуса модуля' }
+  - { name: rebuild.update_modules_list.state.finished, label: 'Статус модуля обновлён' }
+  - { name: rebuild.update_script_state.state, label: 'Обновление состояния скрипта' }
+  - { name: rebuild.update_script_state.state.finished, label: 'Состояние скрипта обновлено' }
+  - { name: rebuild.update_data_source.state, label: 'Обновление метаданных модуля' }
+  - { name: rebuild.update_data_source.state.finished, label: 'Обновление метаданных модуля завершено' }
+  - { name: rebuild.xcart_step.step_first.state, label: 'Очистка кеша основного кода и PHP-кода операции' }
+  - { name: rebuild.xcart_step.step_first.state.finished, label: 'Очистка кеша основного кода и PHP-кода операции завершена' }
+  - { name: rebuild.xcart_step.step_second.state, label: 'Очистка кеша данных и создание нового кеша основного кода' }
+  - { name: rebuild.xcart_step.step_second.state.finished, label: 'Очистка кеша данных завершена. Создан новый кеш основного кода.' }
+  - { name: rebuild.xcart_step.step_third.state, label: 'Очистка кеша кода операции PHP' }
+  - { name: rebuild.xcart_step.step_third.state.finished, label: 'Очистка кеша кода операции PHP завершена' }
+  - { name: rebuild.xcart_step.step_fourth.state, label: 'Создание скрипта миграции базы данных' }
+  - { name: rebuild.xcart_step.step_fourth.state.finished, label: 'Создание скрипта миграции базы данных завершено' }
+  - { name: rebuild.xcart_step.step_fifth.state, label: 'Применение скрипта миграции базы данных' }
+  - { name: rebuild.xcart_step.step_fifth.state.finished, label: 'Применение скрипта миграции базы данных завершено' }
+  - { name: rebuild.xcart_step.step_six.state, label: 'Создание прокси-классов Doctrine для отложенной загрузки' }
+  - { name: rebuild.xcart_step.step_six.state.finished, label: 'Создание прокси-классов Doctrine завершено' }
+  - { name: rebuild.xcart_step.step_seven.state, label: 'Обновление языковых меток' }
+  - { name: rebuild.xcart_step.step_seven.state.finished, label: 'Обновление языковых меток завершено' }
+  - { name: rebuild.xcart_step.step_eight.state, label: 'X-Cart step in progress ({0})' }
+  - { name: rebuild.xcart_step.step_eight.state.finished, label: 'X-Cart step finished ({0})' }
+  - { name: rebuild.xcart_step.step_nine.state, label: 'Генерация quick data' }
+  - { name: rebuild.xcart_step.step_nine.state.finished, label: 'Генерация quick data завершена' }
+  - { name: rebuild.xcart_step.step_ten.state, label: 'Создание правил CSS и таблиц стилей для зоны покупателя' }
+  - { name: rebuild.xcart_step.step_ten.state.finished, label: 'Создание правил CSS и таблиц стилей для зоны покупателя завершено' }
+  - { name: rebuild.xcart_step.step_eleven.state, label: 'Создание правил CSS и таблиц стилей для зоны администрирования' }
+  - { name: rebuild.xcart_step.step_eleven.state.finished, label: 'Создание правил CSS и таблиц стилей для зоны администрирования завершено' }
+  - { name: rebuild.xcart_step.step_twelve.state, label: 'Компиляция шаблонов и очистка кеша APCu и кода операции' }
+  - { name: rebuild.xcart_step.step_twelve.state.finished, label: 'Компиляция шаблонов и очистка кеша APCu и кода операции завершены' }
+  - { name: rebuild.xcart_step.step_thirteen.state, label: 'Разблокировка зоны покупателя' }
+  - { name: rebuild.xcart_step.step_thirteen.state.finished, label: 'Зона покупателя разблокирована' }
+  - { name: rebuild.note.changelog.state, label: 'Информация ({2}) {0} / {1}' }
+  - { name: rebuild.note.changelog.state.finished, label: 'Информация ({2}) {0} / {1}' }
+  - { name: rebuild.note.post_upgrade.state, label: 'Информация ({2}) {0} / {1}' }
+  - { name: rebuild.note.post_upgrade.state.finished, label: 'Информация ({2}) {0} / {1}' }
+  - { name: rebuild.note.pre_upgrade.state, label: 'Информация ({2}) {0} / {1}' }
+  - { name: rebuild.note.pre_upgrade.state.finished, label: 'Информация ({2}) {0} / {1}' }
+  - { name: rebuild.remove_modules.state, label: 'Удаление модулей и создание резервной копии {0} / {1}' }
+  - { name: rebuild.remove_modules.state.finished, label: 'Удаление модулей и создание резервной копии завершено {0} / {1}' }
+  - { name: rebuild.action.upgrade.state, label: 'Applying common upgrade actions {0} / {1}' }
+  - { name: rebuild.action.upgrade.state.finished, label: 'Common upgrade actions applied {0} / {1}' }
+  - { name: rollback.download_packs.state, label: 'Очистка загруженных файлов {0} / {1}' }
+  - { name: rollback.download_packs.state.finished, label: 'Очистка загруженных файлов завершена {0} / {1}' }
+  - { name: rollback.restore_files.state, label: 'Восстановление основного кода из резервной копии' }
+  - { name: rollback.restore_files.state.finished, label: 'Восстановление основного кода из резервной копии завершено' }
+  - { name: rollback.unpack_packs.state, label: 'Очистка распакованных файлов {0} / {1}' }
+  - { name: rollback.unpack_packs.state.finished, label: 'Очистка распакованных файлов завершена {0} / {1}' }
+  - { name: rollback.update_data_source.state, label: 'Обновление метаданных модуля' }
+  - { name: rollback.update_data_source.state.finished, label: 'Обновление метаданных модуля завершено' }
+  - { name: rollback.update_modules_list.state, label: 'Обновление статуса модуля' }
+  - { name: rollback.update_modules_list.state.finished, label: 'Обновление статуса модуля завершено' }
+  - { name: upgrade-preview.title.build, label: ' | Минорный апгрейд (один модуль) | Минорный апгрейд ({0} модуля)| Минорный апгрейд ({0} модулей)' }
+  - { name: upgrade-preview.title.minor, label: ' | Мажорный апгрейд (один модуль) | Мажорный апгрейд ({0} модуля)| Мажорный апгрейд ({0} модулей)' }
+  - { name: upgrade-preview.title.with-core.build, label: 'Минорный апгрейд (новое ядро) | Минорный апгрейд (новое ядро и один модуль) | Минорный апгрейд (новое ядро и {0} модуля)| Минорный апгрейд (новое ядро и {0} модулей)' }
+  - { name: upgrade-preview.title.with-core.minor, label: 'Мажорный апгрейд (новое ядро) | Мажорный апгрейд (новое ядро и один модуль) | Мажорный апгрейд (новое ядро и {0} модуля)| Мажорный апгрейд (новое ядро и {0} модулей)' }
+  - { name: upgrade-preview.changelog-message.build, label: 'Обновите следующие модули для улучшения безопасности и стабильности магазина. {0}.' }
+  - { name: upgrade-preview.changelog-message.minor, label: 'Обновите свой магазин и получите новый функционал, который в дальнейшем позволит увеличить продажи. {0}.' }
+  - { name: upgrade-preview.changelog-link, label: 'Список изменений' }
+  - { name: upgrade-preview.button-title.build, label: 'Посмотреть и обновить' }
+  - { name: upgrade-preview.button-title.minor, label: 'Посмотреть и обновить' }
+  - { name: changelog-dialog.title.build, label: 'Список изменений минорного апгрейда' }
+  - { name: changelog-dialog.title.minor, label: 'Список изменения мажорного апгрейда' }
+  - { name: changelog-dialog.module.title, label: '{0} список изменений' }
+  - { name: upgrade-details-title.build, label: 'Минорный апгрейд(X-Cart {0})' }
+  - { name: upgrade-details-title.minor, label: 'Мажорный апгрейд (X-Cart {0})' }
+  - { name: upgrade-details-title.major, label: 'Мажорный апгрейд (X-Cart {0})' }
+  - { name: upgrade-details-page.advanced-mode.enabled, label: 'Нажмите, чтобы выбрать все модули' }
+  - { name: upgrade-details-page.advanced-mode.disabled, label: 'Нажмите на замок, чтобы внести изменения' }
+  - { name: upgrade-details-page.backup-adv.title, label: 'Не забудьте создать резервную копию!' }
+  - { name: upgrade-details-page.backup-adv.message, label: 'Мы очень хотим, чтобы процесс обновления для Вас был не только простым, но и безопасным. Поэтому мы создали новый модуль ''Master Backup'', который в 2 клика сделает резервную копию Вашего магазина и восстановит все данные, если что-то пойдёт не так.' }
+  - { name: upgrade-details-page.backup-adv.cta.backup, label: 'Создать резервную копию с помощью Backup Master' }
+  - { name: upgrade-details-page.need-help-backup, label: 'Need help? Use Backup Master' }
+  - { name: upgrade-details-page.disabled-and-custom-modules-warning.title, label: 'Several addons require your attention:' }
+  - { name: upgrade-details-page.disabled-modules.message, label: 'These {0} will be removed after the upgrade. If you think you may need them in the future, you can enable them on the page above. Later on, you can disable them again.' }
+  - { name: upgrade-details-page.disabled-modules.message.link, label: 'disabled addons' }
+  - { name: upgrade-details-page.backup-confirm, label: 'Я подтверждаю, что сделал копию всех файлов и базы данных магазина.' }
+  - { name: upgrade-details-page.remove-confirm, label: 'Я согласен на удаление всех отключенных модулей.' }
+  - { name: upgrade-details-page.continue, label: Продолжить }
+  - { name: upgrade-details-page.licenses.updated, label: 'Информация о лицензиях была обновлена' }
+  - { name: upgrade.advanced_mode.message, label: 'In advanced mode you can choose to upgrade specific addons.' }
+  - { name: upgrade.advanced_mode.warning.message, label: 'Внимание! Этот режим предназначен только для разработчиков. Обновление модулей отдельно друг от друга сопряжено с риском нарушения всего процесса обновления. Не продолжайте, если Вы не уверены в том, что Вы делаете, и не готовы самостоятельно вносить исправления в код в случае проблем с несовместимостью.' }
+  - { name: upgrade.advanced_mode.select_all, label: 'Выделить всё' }
+  - { name: empty-upgrade.info, label: 'Вы используете последнюю доступную версию X-Cart' }
+  - { name: upgrade-self.title, label: 'Установить обновления для Маркетплейс' }
+  - { name: upgrade-self.description, label: 'Пожалуйста, установите обновления для Маркетплейс, чтобы сделать процесс обновления Вашего магазина более стабильным и безопасным.' }
+  - { name: upgrade-self.install-update, label: 'Установить обновления' }
+  - { name: module.changelog, label: 'Список изменений' }
+  - { name: module.upgrade.remove, label: 'К удалению' }
+  - { name: upgrade-details-page.wave-warning.title, label: '{0} wave!' }
+  - { name: upgrade-details-page.wave-warning.message, label: 'Your license key is set up to get upgrades in the {0} wave. Therefore, upgrading may require some technical assistance on your part. If you are not prepared to deal with upgrade issues that may arise when upgrading in the {1} wave, please, wait for the merchant wave. You can switch to the merchant wave {2}' }
+  - { name: upgrade-details-page.wave-warning.message.link, label: 'на данную страницу' }
+  - { name: upgrade-details-page.missing-license.message, label: 'Данные модули доступны только для зарегистрированных пользователей X-Cart, начиная с версии {0}. Если Вы хотите воспользоваться ими, пожалуйста, приобретите и активируйте лицензии.' }
+  - { name: upgrade-details-page.expired-license.message, label: 'Обновите доступ до апгрейдов и Вы получите новый улучшенный функционал доступный в последних версиях X-Cart.' }
+  - { name: upgrade-details-page.expired-license.license, label: '(срок действия лицензии {0} истёк {1})' }
+  - { name: upgrade-details-page.custom-modules-warning, label: '{0} were developed for a specific version of X-Cart core. As a result, some adaptation of these addons may be required for the upcoming upgrade. Please contact your module developer to assist you with the adaptation.' }
+  - { name: upgrade-details-page.custom-modules-warning.custom-modules, label: 'Custom addons' }
+  - { name: upgrade-details-page.custom-modules-confirm, label: 'Я осведомлён, что модулю {0} может потребоваться адаптация.' }
+  - { name: upgrade-details-page.custom-modules-confirm.custom-modules, label: 'модули от разработчиков' }
+  - { name: module_state_message.upgrade.remove-warning, label: 'Пожалуйста, {0}, если он может потребоваться Вам в дальнейшем. В противном случае, модуль будет удалён после апгрейда.' }
+  - { name: module_state_message.upgrade.remove-warning.installed-addons-link, label: 'включите модуль' }
+  - { name: module_state_message.upgrade.license-warning, label: 'Срок действия лицензии истёк' }
+  - { name: rebuild.init, label: 'Инициируем развёртывание магазина...' }
+  - { name: rebuild.init.rollback, label: 'Инициируем откат обновлений...' }
+  - { name: rebuild.note.pre-upgrade.action.rollback, label: 'Отменить' }
+  - { name: rebuild.note.pre-upgrade.action.release, label: 'Продолжить' }
+  - { name: rebuild.note.post-upgrade.action.release, label: Готово! }
+  - { name: rebuild.title, label: 'Развёртывание магазина' }
+  - { name: rebuild.title.rollback, label: 'Отмена примененных изменений' }
+  - { name: rebuild.title.post-upgrade-note, label: 'Важно! Не закрывайте эту страницу!' }
+  - { name: rebuild-success.title, label: 'Обновление завершено!' }
+  - { name: rebuild-success.message, label: 'Пожалуйста, не закрывайте эту страницу, пока не проверите магазин и не убедитесь, что все системы работают правильно. ' }
+  - { name: rebuild-success.storefront, label: 'Открыть зону покупателя' }
+  - { name: rebuild-success.backend, label: 'Перейти в зону администрирования' }
+  - { name: rebuild-success.upgrade, label: 'Перейти в раздел "Обновления и улучшения"' }
+  - { name: rebuild-success.description, label: 'При возникновении любых вопросов пишите нам на support@x-cart.com. Мы работаем для Вас 24/7.' }
+  - { name: rebuild-success.description.with-rollback, label: 'Если что-то пошло не так, просто {0} или свяжитесь с {1} - они всегда знают, как помочь!' }
+  - { name: rebuild-success.rollback, label: 'отмените изменения' }
+  - { name: rebuild-success.support, label: 'командой техподдержки' }
+  - { name: marketplace-lock.info, label: 'Ой-ой! Что-то пошло не так...' }
+  - { name: marketplace-lock.reconnect, label: Переподключиться }
+  - { name: error.marketplace-lock, label: 'Ошибка подключения к Маркетплейс' }
+  - { name: request-for-upgrade.success, label: 'Ваш запрос успешно отправлен' }
+  - { name: request-for-upgrade.warning, label: 'Произошла ошибка при отправке запроса' }
+  - { name: scenario-rule.exception.dependencies.core-version.core-upgrade-required, label: 'Модуль "{0}" не может быть включён, поскольку модуль "{1}", от которого он зависит, требует обновления используемой версии X-Cart.' }
+  - { name: scenario-rule.exception.dependencies.core-version.module-upgrade-required, label: 'Модуль "{0}" не может быть включён, поскольку модуль "{1}", от которого он зависит, не доступен для используемой версии X-Cart.' }
+  - { name: scenario-rule.exception.dependencies.core-version.non-existent-module, label: 'Модуль "{0}" не может быть включён, поскольку не существует модуль "{1}", от которого он зависит.' }
+  - { name: scenario-rule.exception.dependencies.force-disabled-when-incompatible, label: 'Модуль "{0}" не совместим с модулем "{0}" и не может быть включён.' }
+  - { name: scenario-rule.exception.dependencies.force-enabled-when-required, label: 'Модуль "{0}" требуется для правильной работы модуля "{1}" и не может быть отключён.' }
+  - { name: scenario-rule.exception.core-version.core-upgrade-required, label: 'Чтобы включить модуль "{0}", обновите магазин до последней версии.' }
+  - { name: scenario-rule.exception.core-version.module-upgrade-required, label: 'Модуль "{0}" не доступен для текущей версии магазина и не может быть включён' }
+  - { name: scenario.section-heading.switch, label: 'Выбранные модули' }
+  - { name: scenario.section-heading.install, label: 'Установить модули' }
+  - { name: scenario.transition.type.enable, label: ВКЛ }
+  - { name: scenario.transition.type.disable, label: ВЫКЛ }
+  - { name: scenario.transition.type.install_enabled, label: 'On' }
+  - { name: scenario.transition.type.install_disabled, label: 'On' }
+  - { name: scenario.transition.type.remove, label: '' }
+  - { name: purchases-page.empty, label: 'Похоже, Вы еще ничего не купили!' }
+  - { name: tags-selector.all-tags, label: 'Все категории' }
+  - { name: dialog-upload-addon.heading, label: 'Загрузить модуль' }
+  - { name: select-file, label: 'Выбрать файл' }
+  - { name: modules-page.marketplace.empty.message, label: 'Модули, названия которых соответствуют Вашиму запросу, не найдены' }
+  - { name: modules-page.marketplace.empty.serach-tips, label: 'Некоторые поисковые запросы выдают результат только при 100% совпадении. Попробуйте перефразировать запрос, используя близкие по значению слова и выражения.' }
+  - { name: modules-page.marketplace.empty.back-link, label: 'Назад в Маркетплейс' }
+  - { name: exception.upload-addon.input-error, label: 'Failed to open input stream' }
+  - { name: exception.upload-addon.output-error, label: 'Failed to open output stream' }
+  - { name: exception.upload-addon.restriction-error, label: 'This file type ({0}) is not allowed' }
+  - { name: exception.addon-package.missing-file-error, label: 'No package file was uploaded' }
+  - { name: exception.addon-package.wrong-file-error, label: 'Wrong addon package format was uploaded' }
+  - { name: exception.addon-package.wrong-format-error, label: 'The module pack is incorrect. Make sure the module pack is created via X-Cart packing tool.' }
+  - { name: exception.addon-package.generic-error, label: 'Ошибка при загрузке файла: {0}' }
+  - { name: marketplace-page-heading, label: 'Доступные модули' }
+  - { name: ongoing-processes.message, label: 'Внимание! Aктивирована {0}! Воздержитесь от любых изменений до окончания процесса.' }
+  - { name: ongoing-processes.redeploy-link, label: 'перестройка кеша' }
+  - { name: rebuild.modified-dialog.title, label: 'Несколько файлов изменено' }
+  - { name: rebuild.modified-dialog.description, label: 'Система обнаружила изменения, сделанные путем модифицирования ядра и файлов модулей, а не путем создания новых модулей. Чтобы продолжить апгрейд, необходимо решить, как поступить с изменениями.' }
+  - { name: rebuild.modified-dialog.replace-all.label, label: '<b>Заменить все изменённые файлы</b> стандартными файлами новой версии.' }
+  - { name: rebuild.modified-dialog.replace-all.description, label: 'Рекомендовано. Не волнуйтесь, мы сделали полную резервную копию файлов вашего магазина.' }
+  - { name: rebuild.modified-dialog.keep-seleced.label, label: '<b>Сохранить измененные файлы</b> , не заменяя их файлами новой версии' }
+  - { name: rebuild.modified-dialog.keep-seleced.description, label: 'Укажите файлы, которые вы хотите сохранить.' }
+  - { name: demo.popup.title, label: 'Демо версия имеет ограничения' }
+  - { name: demo.popup.notice1, label: 'Изменения, сделанные в интерфейсе администратора, не влияют на интерфейс покупателя.' }
+  - { name: demo.popup.notice2, label: 'Некоторые настройки могут быть недоступны.' }
+  - { name: demo.popup.free-trial.notice, label: 'Создайте бесплатно свой магазин, чтобы попробовать все возможности X-Cart.' }
+  - { name: demo.popup.free-trial.button, label: 'Создать свой магазин' }
+  - { name: demo.popup.free-trial.decription, label: '30 дней бесплатного использования.' }
+  - { name: demo.popup.continue.button, label: 'Закрыть' }
+  - { name: rebuild.fs-errors-dialog.title, label: 'Права доступа' }
+  - { name: rebuild.fs-errors-dialog.description, label: 'Недостаточно прав для выполнения процесса. Убедитесь, что выставлены следующие права доступа (Только на системах типа UNIX).<br />Такие права доступа необходимы для беспрепятственной автоматической установки или обновления X-Cart на вашем сервере. Они не учитывают специфической конфигурации вашего сервера и каких-либо требований безопасности. По завершении процесса необходимо выставить более строгие ограничения прав. <a target="_blank" href="https://kb.x-cart.ru/setting_up_x-cart_5_environment/secure_configuration.html#почему-x-cart-требует-права-доступа-666777">Подробнее</a>' }
+  - { name: rebuild.fs-errors-dialog.copy-label, label: 'Скопировать в буфер обмена' }
+  - { name: rebuild.fs-errors-dialog.copy-success, label: 'Текст был скопирован в буфер обмена' }
+  - { name: module_state_message.postponed_upgrade_available, label: 'Доступна версия {0}. {1}' }
+  - { name: module_state_message.postponed_upgrade_available.update_link, label: 'Обновить модуль' }
+  - { name: upgrade-details-title.postponed, label: 'Мажорный апгрейд ({0})' }
+  - { name: upgrade-preview.changelog-message.postponed, label: 'Обновите свой магазин и получите новый функционал, который в дальнейшем позволит увеличить продажи. {0}' }
+  - { name: changelog-dialog.title.postponed, label: 'Список изменения мажорного апгрейда' }
+  - { name: rebuild.postponed-hooks-dialog.title, label: 'Внимание: требуется выбор действия' }
+  - { name: rebuild.postponed-hooks-dialog.description, label: 'Некоторые модули, используемые Вашим магазином, содержат код, который должен быть выполнен до начала процесса обновления. Для успешного выполнения данного кода модули должны находиться во включенном состоянии. Однако, некоторые из модулей, содержащих такой код, в настоящее время выключены. Для них код, который необходимо выполнить перед обновлением, не сможет быть выполнен, что с высокой вероятностью вызовет проблемы (например, возникновение критической ошибки).<br /><br />Ниже приведен список модулей, содержащих код, который должен быть выполнен до начала обновления, и в настоящее время выключенных. Здесь Вы можете указать, для каких модулей требуемый код должен быть выполнен:' }
+  - { name: rebuild.postponed-hooks-dialog.note, label: 'Пожалуйста, обратите внимание на то, что мы не несем ответственности за какие-либо проблемы в ходе апгрейда, вызванные неисполнением обязательного к исполнению кода.' }
+  - { name: rebuild.postponed-hooks-dialog.action.execute, label: 'Выполнить' }
+  - { name: rebuild.postponed-hooks-dialog.action.ignore, label: 'Не выполнять' }
+  - { name: rebuild.check_postponed_hooks.state, label: 'Проверка отложенных действий' }
+  - { name: rebuild.check_postponed_hooks.state.finished, label: 'Проверка отложенных действий завершена' }
+  - { name: login-page.lock.title, label: 'Ваш аккаунт заблокирован за превышение допустимого количества неудачных попыток авторизации.' }
+  - { name: login-page.lock.timer, label: 'Времени осталось: {0}' }
+  - { name: login-page.header.x-cart, label: 'Интернет-магазин на платформе X-Cart' }
+  - { name: login-page.title, label: 'Зона администрирования' }
+  - { name: login-page.input.auth-code.label, label: 'Пожалуйста, введите код авторизации (Auth code)' }
+  - { name: login-page.input.auth-code.placeholder, label: 'Код авторизации (Auth code)' }
+  - { name: login-page.button.login, label: 'Логин' }
+  - { name: login-page.help, label: 'Код авторизации (authcode) находится на сервере (папка_с_xcart/etc/config.php, auth_code). Также можно {0}.' }
+  - { name: login-page.help.contact-us, label: 'Написать в службу техподдержки X-Cart' }
+  - { name: login-page.error.auth-code-invalid, label: 'Неверный код авторизации (Auth code)' }
+  - { name: login-page.error.auth-lock, label: 'Ваш аккаунт заблокирован за превышение допустимого количества неудачных попыток авторизации.' }
+  - { name: login-page.error.unknown-error, label: 'Неизвестная ошибка' }
+  - { name: modules-list-controls.installed.all, label: 'Все модули' }
+  - { name: modules-list-controls.installed.enabled, label: 'Только включённые' }
+  - { name: modules-list-controls.installed.disabled, label: 'Только отключенные' }
+  - { name: modules-list-controls.installed.recent, label: 'Последние включенные' }
+  - { name: activate_license.free-license.alreadey-registered, label: 'Бесплатная лицензия уже зарегистрирована для {0}. Используйте другой email-адрес или {1}' }
+  - { name: activate_license.free-license.alreadey-registered.link, label: 'запросите повторную отправку информации о ключе на этот email' }
+  - { name: activate_license.free-license.resend.succeess, label: 'Информация о лицензионном ключе выслана на {0}' }
+  - { name: rebuild-success.message.enabled-present, label: 'Теперь вы можете перейти на {0}.' }
+  - { name: rebuild-success.message.enabled-present.link, label: 'список установленных модулей' }
+  - { name: rebuild-success.message.settings-present, label: 'Теперь вы можете осуществить настройку установленных модулей.' }
+  - { name: installed-module-actions.download.phar-error, label: 'Для скачивания модулей необходимо расширение Phar. Пожалуйста, обратитесь в поддержку своего хостинг-провайдера для настройки данного параметра.'}
+  - { name: rollback_prompt_title, label: 'Отменить' }
+  - { name: release_prompt_title, label: 'Продолжить' }
+  - { name: retry_prompt_title, label: 'Повторить' }
+  - { name: rebuild-dialog.action.rollback, label: 'Отменить' }
+  - { name: rebuild-dialog.action.release, label: 'Продолжить' }
+  - { name: rebuild-dialog.action.retry, label: 'Повторить' }
+  - { name: rebuild-dialog.action.restore, label: 'Восстановить' }
+  - { name: rebuild-dialog.action.contact-us, label: 'Напишите нам' }
+  - { name: rebuild-success.installed-addons, label: 'К установленным модулям' }
+  - { name: rebuild-success.go-to-settings, label: 'К настройкам модуля' }

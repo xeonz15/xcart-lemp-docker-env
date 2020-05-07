@@ -1,0 +1,73 @@
+{##
+ # Qiwi payment method configuration page
+ #}
+
+<p>{{ t('To complete Qiwi payment gateway integration configuration do the following', {'callbackURL': this.getQiwiCallbackURL()})|raw }}</p>
+
+<table cellspacing="1" cellpadding="5" class="settings-table">
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_shop_id">{{ t('Shop id') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_shop_id" name="settings[shopId]" value="{{ this.paymentMethod.getSetting('shopId') }}" class="field-required field-integer" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_api_id">{{ t('API ID') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_api_id" name="settings[appId]" value="{{ this.paymentMethod.getSetting('appId') }}" class="field-required field-integer" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_app_password">{{ t('API password') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_app_password" name="settings[appPassword]" value="{{ this.paymentMethod.getSetting('appPassword') }}" class="field-required" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_pull_password">{{ t('Pull password') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_pull_password" name="settings[pullPassword]" value="{{ this.paymentMethod.getSetting('pullPassword') }}" class="field-required" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-sign">
+    <label for="settings_sign">{{ t('Qiwi sign') }}</label>
+    </td>
+    <td>
+    <input type="hidden" id="settings_sign" name="settings[sign]" value="" />
+    <input type="checkbox" id="settings_sign" name="settings[sign]" value="1" {% if this.paymentMethod.getSetting('sign') %}checked="checked"{% endif %} />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_prefix">{{ t('Order id prefix') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_prefix" name="settings[prefix]" value="{{ this.paymentMethod.getSetting('prefix') }}" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_lifetime">{{ t('Order lifetime in hours') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_lifetime" value="{{ this.paymentMethod.getSetting('lifetime') }}" name="settings[lifetime]" class="field-integer" />
+    </td>
+  </tr>
+
+</table>

@@ -1,0 +1,7 @@
+{##
+ # Sales channels plus button
+ #}
+<a href="#" class="{{ this.getClass() }}" data-toggle="tooltip" data-placement="bottom" title="{{ t('Add sales channel') }}">
+  {{ this.displayCommentedData(this.getURLParams()) }}
+  {{ this.getSVGImage('images/plus.svg')|raw }}
+</a>

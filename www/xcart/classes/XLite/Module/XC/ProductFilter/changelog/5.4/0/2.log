@@ -1,0 +1,8 @@
+Version 5.4.0.2
+
+Improvements (1)
+2019-02-12 - [Change] JS libs updated. #XCN-9391 (Fedya Lavrentyev) #Core #ThemeTweaker #ProductFilter #ProductComparison #CrispWhiteSkin #Onboarding
+
+Fixes (1)
+2019-02-08 - [Bug] Tags were not shown in product category filter. Fixed. #BUG-7027 (Vladimir Semyonov) #ProductFilter #ProductTags
+

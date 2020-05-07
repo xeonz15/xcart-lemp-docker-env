@@ -1,0 +1,40 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Payment\Method:
+  - service_name: 'WebMoney'
+    class: 'Module\XC\Webmoney\Model\Payment\Processor\Webmoney'
+    type: 'N'
+    orderby: -9700
+    countries: [RU]
+    translations:
+      - code: en
+        name: 'WebMoney'
+    settings:
+      - name: purse
+      - name: secret_key
+      - name: hash_type
+        value: SHA256
+      - name: wmid
+      - name: key_path
+      - name: key_password
+
+XLite\Model\LanguageLabel:
+  - { directives: { allowedModel: 'XLite\Model\LanguageLabelTranslation' } }
+  - name: 'To complete WebMoney payment system integration configuration'
+    translations:
+      - code: 'en'
+        label: 'To complete the WebMoney payment system configuration:<ol style="padding-left: 20px; list-style-type: decimal;"><li>Make sure you have a merchant account in Web Merchant Interface (<a target="_blank" href="https://merchant.wmtransfer.com/">https://merchant.wmtransfer.com/</a>).</li><li>Enter your purse number, secret key and set hash type as these are defined in the Web Merchant Interface (SIGN hash type also requires setting WMID, uploading your key and a password to it).</li><li>"Allow overriding URL from Payment Request Form" parameter must be enabled in the Web Merchant Interface.</li><li>Make sure that the specified purse currency matches the store currency</li></ol>'
+      - code: 'ru'
+        label: 'Для настройки платежного метода WebMoney:<ol style="padding-left: 20px; list-style-type: decimal;"><li>Убедитесь, что у вас есть аккаунт в <a target="_blank" href="https://merchant.wmtransfer.com/">Web Merchant Interface</a>.</li><li>Введите номер вашего кошелька, секретный ключ и установите тип контрольной подписи в соответствии с настройками в Web Merchant Interface (тип контрольной подписи SIGN дополнительно требует ввода WMID, файл с ключами и пароль к нему).</li><li>Параметр "Позволять использовать URL, передаваемые в форме" должен быть включен в Web Merchant Interface.</li><li>Убедитесь, что тип кошелька соответствует валюте магазина.</ol>'
+  - { name: 'Purse', translations: [{ code: 'en', label: 'Purse' }, { code: 'ru', label: 'Кошелек' }] }
+  - { name: 'Secret key', translations: [{ code: 'en', label: 'Secret key' }, { code: 'ru', label: 'Секретный ключ' }] }
+  - { name: 'Hash type', translations: [{ code: 'en', label: 'Hash type' }, { code: 'ru', label: 'Тип контрольной подписи' }] }
+  - { name: 'WebMoney Keeper Classic key path', translations: [{ code: 'en', label: 'WebMoney Keeper Classic key path' }, { code: 'ru', label: 'Путь к ключу WebMoney Keeper Classic' }] }
+  - { name: 'Key password', translations: [{ code: 'en', label: 'Key password' }, { code: 'ru', label: 'Пароль к файлу ключей' }] }
+  - { name: WMID, translations: [{ code: en, label: WMID }] }
+

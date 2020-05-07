@@ -1,0 +1,17 @@
+{##
+ # Google feed promo banner template
+ #}
+
+<div class="promo-banner">
+  <div class="promo-banner-logo">
+    <a href="{{ this.getGoogleFeedModuleLink() }}">
+      <img src="{{ this.getGoogleFeedLogoUrl() }}" alt="{{ t('Google feed') }}" class="logo"/>
+    </a>
+  </div>
+  <div class="promo-banner-content">
+    <div>{{ this.getGoogleFeedPromoText() }}</div>
+    <div class="actions">
+        {{ widget('XLite\\View\\Button\\SimpleLink', label=this.getGoogleFeedButtonLabel(), location=this.getGoogleFeedModuleLink(), style='btn regular-button always-enabled link') }}
+    </div>
+  </div>
+</div>

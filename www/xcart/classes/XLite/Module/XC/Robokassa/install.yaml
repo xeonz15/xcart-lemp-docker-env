@@ -1,0 +1,70 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Payment\Method:
+  - service_name: 'Robokassa'
+    class: 'Module\XC\Robokassa\Model\Payment\Processor\Robokassa'
+    type: 'N'
+    orderby: -9800
+    countries: [RU, KZ]
+    translations:
+      - code: en
+        name: 'Robokassa'
+    settings:
+      - name: login
+      - name: password1
+      - name: password2
+      - name: language
+        value: ru
+      - name: currency
+        value: ''
+      - name: mode
+        value: test
+      - name: prefix
+        value: xcart
+      - name: defaultVATRate
+        value: none
+      - name: taxationSystem
+        value: osn
+
+XLite\Model\LanguageLabel:
+  - { directives: { allowedModel: 'XLite\Model\LanguageLabelTranslation' } }
+  - name: 'To complete Robokassa payment system integration configuration'
+    translations:
+      - code: 'en'
+        label: 'To setup Robokassa in you online store, follow the steps below:<ol style="padding-left: 20px; list-style-type: decimal;"><li>Make sure you have a valid merchant account with <a target="_blank" href="https://partner.robokassa.ru/?culture=en">Robokassa</a> or <a target="_blank" href="https://partner.robokassa.ru/Reg/Register?culture=en">register</a> a new one.</li><li>Fill in the fields below using the data from Web Merchant Interface.</li></ol>'
+      - code: 'ru'
+        label: 'Для настройки платежного метода Robokassa:<ol style="padding-left: 20px; list-style-type: decimal;"><li>Убедитесь, что у вас есть аккаунт в <a target="_blank" href="https://partner.robokassa.ru/?culture=ru">Robokassa</a> или <a target="_blank" href="https://partner.robokassa.ru/Reg/Register?culture=ru">зарегистрируйте</a> новый аккаунт.</li><li>Введите параметры платежной системы в соответствии с настройками в Вашем личном кабинете.</li></ol>'
+  - { name: 'Merchant login', translations: [{ code: 'en', label: 'Merchant login' }, { code: 'ru', label: 'Идентификатор магазина' }] }
+  - { name: 'Response type', translations: [{ code: 'en', label: 'Response type' }, { code: 'ru', label: 'Тип ответа сервера' }] }
+  - { name: 'Password 1', translations: [{ code: 'en', label: 'Password 1' }, { code: 'ru', label: 'Пароль 1' }] }
+  - { name: 'Password 2', translations: [{ code: 'en', label: 'Password 2' }, { code: 'ru', label: 'Пароль 2' }] }
+  - { name: 'Result URL', translations: [{ code: en, label: 'Result URL' }] }
+  - { name: 'Success URL', translations: [{ code: en, label: 'Success URL' }] }
+  - { name: 'Fail URL', translations: [{ code: en, label: 'Fail URL' }] }
+  - { name: Russian, translations: [{ code: en, label: Russian }] }
+  - { name: English, translations: [{ code: en, label: English }] }
+  - { name: 'Transaction failed. Reason: Wrong sign', translations: [{ code: en, label: 'Transaction failed. Reason: Wrong sign' }] }
+  - { name: Line, translations: [{ code: en, label: Line }] }
+  - { name: Result, translations: [{ code: en, label: Result }] }
+  - { name: 'VAT Rate', translations: [{ code: en, label: 'VAT Rate' },{code: ru, label: 'Ставка НДС'}] }
+  - { name: 'No VAT', translations: [{ code: en, label: 'No VAT' },{code: ru, label: 'без НДС'}] }
+  - { name: '0% VAT', translations: [{ code: en, label: '0% VAT' },{code: ru, label: 'НДС по ставке 0%;'}] }
+  - { name: '10% VAT', translations: [{ code: en, label: '10% VAT' },{code: ru, label: 'НДС чека по ставке 10%'}] }
+  - { name: '18% VAT', translations: [{ code: en, label: '18% VAT' },{code: ru, label: 'НДС чека по ставке 18%'}] }
+  - { name: '10/110 VAT', translations: [{ code: en, label: '10/110 VAT' },{code: ru, label: 'НДС чека по расчетной ставке 10/110'}] }
+  - { name: '18/118 VAT', translations: [{ code: en, label: '18/118 VAT' },{code: ru, label: 'НДС чека по расчетной ставке 18/118'}] }
+  - { name: 'Taxation system', translations: [{ code: en, label: 'Taxation system' },{code: ru, label: 'Система налогообложения'}] }
+  - { name: 'General taxation system', translations: [{ code: en, label: 'General taxation system' },{code: ru, label: 'Общая СН'}] }
+  - { name: 'Simplified taxation system (income)', translations: [{ code: en, label: 'Simplified taxation system (income)' },{code: ru, label: 'Упрощенная СН (доходы)'}] }
+  - { name: 'Simplified taxation system (income minus costs)', translations: [{ code: en, label: 'Simplified taxation system (income minus costs)' },{code: ru, label: 'Упрощенная СН (доходы минус расходы)'}] }
+  - { name: 'A single tax on imputed income', translations: [{ code: en, label: 'A single tax on imputed income' },{code: ru, label: 'Единый налог на вмененный доход'}] }
+  - { name: 'Unified agricultural tax', translations: [{ code: en, label: 'Unified agricultural tax' },{code: ru, label: 'Единый сельскохозяйственный налог'}] }
+  - { name: 'Patent taxation system', translations: [{ code: en, label: 'Patent taxation system' },{code: ru, label: 'Патентная система налогообложения'}] }
+  - { name: 'The Robokassa is not configured and cannot be used.', translations: [{ code: en, label: 'The Robokassa is not configured and cannot be used.' },{code: ru, label: 'Способ оплаты Robokassa не настроен и не может быть использован.'}] }
+  - { name: 'Robokassa cannot be used because the option "Display prices in catalog including VAT / GST" in VAT settings is disabled.', translations: [{ code: en, label: 'Robokassa cannot be used because the option "Display prices in catalog including VAT / GST" in <a href="{{url}}">VAT / GST settings</a> is disabled.' },{code: ru, label: 'Способ оплаты Robokassa не может быть использован, так как в <a href="{{url}}">настройках НДС</a> отключена опция "Отображать в каталоге цены с учетом налога на добавленную стоимость".'}] }
+  - { name: 'Robokassa', translations: [{ code: en, label: 'Robokassa' },{code: ru, label: 'Robokassa'}] }

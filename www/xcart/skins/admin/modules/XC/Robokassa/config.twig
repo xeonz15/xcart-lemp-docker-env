@@ -1,0 +1,120 @@
+{##
+ # Robokassa payment system configuration page
+ #}
+
+<p>{{ t('To complete Robokassa payment system integration configuration', {'robokassaCallbackURL': this.paymentMethod.processor.robokassaCallbackURL})|raw }}</p>
+
+<input type="hidden" id="settings_currency" name="settings[currency]" value="Qiwi29OceanR" />
+
+<table cellspacing="1" cellpadding="5" class="settings-table">
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_result_url">{{ t('Result URL') }}:</label>
+    </td>
+    <td>
+      {{ this.paymentMethod.processor.robokassaCallbackURL }}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_success_url">{{ t('Success URL') }}:</label>
+    </td>
+    <td>
+      {{ this.paymentMethod.processor.robokassaSuccessURL }}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_fail_url">{{ t('Fail URL') }}:</label>
+    </td>
+    <td>
+      {{ this.paymentMethod.processor.robokassaFailURL }}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_response_type">{{ t('Response type') }}:</label>
+    </td>
+    <td>
+      POST
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_login">{{ t('Merchant login') }}:</label>
+    </td>
+    <td>
+      <input type="text" id="settings_login" name="settings[login]" value="{{ this.paymentMethod.getSetting('login') }}" class="field-required" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_password1">{{ t('Password 1') }}:</label>
+    </td>
+    <td>
+      <input type="password" id="settings_password1" name="settings[password1]" value="{{ this.paymentMethod.getSetting('password1') }}" class="field-required" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_password2">{{ t('Password 2') }}:</label>
+    </td>
+    <td>
+      <input type="password" id="settings_password2" name="settings[password2]" value="{{ this.paymentMethod.getSetting('password2') }}" class="field-required" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_language">{{ t('Language') }}:</label>
+    </td>
+    <td>
+      <select id="settings_language" name="settings[language]" class="field-required" />
+        <option value="ru">{{ t('Russian') }}</option>
+        <option value="en">{{ t('English') }}</option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_mode">{{ t('Test/Live mode') }}</label>
+    </td>
+    <td>
+      {{ widget('\\XLite\\View\\FormField\\Select\\TestLiveMode', fieldId='settings_mode', fieldName='settings[mode]', fieldOnly='true', value=this.paymentMethod.getSetting('mode')) }}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_taxation_system">{{ t('Taxation system') }}</label>
+    </td>
+    <td>
+      {{ widget('XLite\\Module\\XC\\Robokassa\\View\\FormField\\Select\\TaxationSystem', fieldId='settings_taxation_system', fieldName='settings[taxationSystem]', fieldOnly='true', value=this.paymentMethod.getSetting('taxationSystem')) }}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_default_vat_rate">{{ t('VAT Rate') }}</label>
+    </td>
+    <td>
+      {{ widget('XLite\\Module\\XC\\Robokassa\\View\\FormField\\Select\\VATRate', fieldId='settings_default_vat_rate', fieldName='settings[defaultVATRate]', fieldOnly='true', value=this.paymentMethod.getSetting('defaultVATRate'), showPlaceholder=false) }}
+    </td>
+  </tr>
+
+</table>
+
+<script type="text/javascript">
+//<![CDATA[
+  jQuery("#settings_currency").val("{{ this.paymentMethod.getSetting('currency') }}");
+  jQuery("#settings_language").val("{{ this.paymentMethod.getSetting('language') }}");
+//]]>
+</script>

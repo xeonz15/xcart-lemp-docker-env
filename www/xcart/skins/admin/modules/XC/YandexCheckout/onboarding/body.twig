@@ -1,0 +1,35 @@
+{##
+ # Onboarding wizard online payment method block
+ #}
+<xlite-wizard-step-payment-yandex-money inline-template>
+  <div class="online yandex-money">
+
+    <div class="image">
+      <img src="{{ asset('modules/XC/YandexCheckout/onboarding/logo.png') }}" alt="{{ t('Yandex.Checkout') }}" title="{{ t('Yandex.Checkout') }}" />
+    </div>
+
+    <div class="note">
+      {{ t('A simple service providing online payments — for live and business.') }}
+    </div>
+
+    {% if this.isMethodConfigured() %}
+      <div class="switcher{% if this.isMethodEnabled() %} enabled{% endif %}">
+        <span class="inactive">{{ t('checkbox.onoff.off') }}</span>
+        <a href="#" @click.prevent="switchMethod({{ this.getMethodId() }}, $event)">
+          <div>
+            <span class="fa fa-check"></span>
+          </div>
+        </a>
+        <span class="active">{{ t('checkbox.onoff.on') }}</span>
+      </div>
+    {% else %}
+      <div class="button">
+        {{ widget('\\XLite\\View\\Button\\Link', label=t('Launch Yandex'), location=this.getMethodSettingsUrl(), blank=1) }}
+      </div>
+    {% endif %}
+
+    <div class="added-mark">
+      <span class="fa fa-check"></span>
+    </div>
+  </div>
+</xlite-wizard-step-payment-yandex-money>

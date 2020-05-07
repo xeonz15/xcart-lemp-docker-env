@@ -1,0 +1,10 @@
+<script src="https://www.google.com/recaptcha/api.js?render={{ this.getPublicKey() }}"></script>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('{{ this.getPublicKey() }}', {action: 'contact_us'}).then(function(token) {
+            jQuery('#g-recaptcha-response').val(token);
+        });
+    });
+</script>
+{{ t('recaptcha_terms_of_service')|raw }}
+<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />

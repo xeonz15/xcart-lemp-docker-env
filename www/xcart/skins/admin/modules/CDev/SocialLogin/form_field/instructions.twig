@@ -1,0 +1,12 @@
+{##
+ # Instructions form field template
+ #}
+
+<h2>{{ t(this.getParam('label')) }}</h2>
+
+<p>
+  {% if this.getKBLink() %}
+    <a href="{{ this.getKBLink() }}" target="_blank">{{ this.getKBLink() }}</a><br>
+  {% endif %}
+  {{ t(this.processUrls(this.getParam('help')))|raw }}
+</p>

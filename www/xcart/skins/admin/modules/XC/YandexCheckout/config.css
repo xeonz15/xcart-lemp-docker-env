@@ -1,0 +1,75 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Styles for Yandex Money config page
+ *
+ * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+ * See https://www.x-cart.com/license-agreement.html for license details.
+ */
+
+.yandex-money .note {
+  font-size: 14px;
+  margin-bottom: 14px;
+  float: none;
+}
+
+.yandex-money .webhook, .yandex-money .webhook + .help-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.yandex-money .webhook span.input {
+  display: table;
+}
+
+.yandex-money .webhook input {
+  cursor: text !important;
+  min-width: 250px;
+}
+
+table.settings-table {
+  width: 800px;
+  margin-bottom: 40px;
+}
+
+.settings-table.yandex-money .setting-name {
+  padding-right: 20px;
+  max-width: 300px;
+}
+
+table.settings-table td div.yandex-money-button {
+}
+
+table.settings-table td .yandex-money-register-button {
+    margin-bottom: 10px;
+}
+
+.yandex-logo {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.yandex-logo img {
+  width: 375px;
+  height: 325px;
+}
+
+.help-wrapper, div.table-value.settings_default_vat_rate-value {
+  display: inline-block;
+}
+
+.help-wrapper .tooltip-main {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+h1.title, .payment-status {
+  width: 680px;
+}
+
+table.settings-table td .onoffswitch label {
+  display: inline-block;
+  width: 68px;
+  vertical-align: middle;
+}

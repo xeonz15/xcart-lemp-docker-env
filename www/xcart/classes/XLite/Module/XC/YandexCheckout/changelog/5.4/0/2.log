@@ -1,0 +1,9 @@
+Version 5.4.0.2
+
+Improvements (1)
+2019-03-22 - [Change] Layout adjustments for payment method settings pages. #XCN-9658 (Fedya Lavrentyev) #Core #AuthorizeNet #Paypal #TwoCheckout #VendorMessages #BitPay #Yandex Checkout
+
+Fixes (2)
+2019-03-19 - [Bug] Related products were displayed incorrectly in Multivendor mode. #BUG-7163 (Maxim Kuznetsov) #Core #RelatedProducts #Yandex Checkout
+2019-01-30 - [Bug] Fatal error on some payment method pages: "Trying to call undefined method...". Fixed. #BUG-7009 (Vladimir Semyonov) #Core #AuthorizeNet #Stripe #SagePay #ProductReviews #DatatransUPP #YandexMoney #Beanstream #IdealPayments #NetbanxHostedPayment #BlueSnap #EWAYStoredShared #CCBill #EPDQ #Worldpay #FirstDataPayeezyGatewayHP #Yandex Checkout #GlobalTransportSecure #PayFort #PoliPayment #DIBSFlexWin #SecureTrading
+

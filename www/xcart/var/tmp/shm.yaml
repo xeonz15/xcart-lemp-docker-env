@@ -1,0 +1,6 @@
+XLite\Model\Shipping\Method:
+    0: { processor: aupost, carrier: '', code: '', moduleName: CDev_AustraliaPost, translations: [{ code: en, name: 'Australia Post' }], fromMarketplace: 1, iconURL: //my.x-cart.com/sites/default/files/addons/CDev/AustraliaPost/method_icon.jpg }
+    2: { processor: usps, carrier: '', code: '', moduleName: CDev_USPS, translations: [{ code: en, name: U.S.P.S }], fromMarketplace: 1, iconURL: //my.x-cart.com/sites/default/files/addons/CDev/USPS/method_icon.jpg }
+    3: { processor: capost, carrier: '', code: '', moduleName: XC_CanadaPost, translations: [{ code: en, name: 'Canada Post' }], fromMarketplace: 1, iconURL: //my.x-cart.com/sites/default/files/addons/XC/CanadaPost/method_icon.jpg }
+    4: { processor: dhl, carrier: '', code: '', moduleName: XC_DHL, translations: [{ code: en, name: DHL }, { code: ru, name: DHL }], fromMarketplace: 1, iconURL: //my.x-cart.com/sites/default/files/addons/XC/DHL/method_icon.jpg }
+    5: { processor: Pilibaba, carrier: '', code: '', moduleName: XC_Pilibaba, translations: [{ code: en, name: 'Pilibaba Chinese Checkout' }], fromMarketplace: 1, iconURL: //my.x-cart.com/sites/default/files/addons/XC/Pilibaba/method_icon.png }

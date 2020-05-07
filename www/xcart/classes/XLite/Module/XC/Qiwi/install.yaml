@@ -1,0 +1,45 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Payment\Method:
+  - service_name: 'Visa QIWI Wallet'
+    class: 'Module\XC\Qiwi\Model\Payment\Processor\Qiwi'
+    type: 'N'
+    orderby: -9900
+    countries: [AB, AZ, AM, BY, GE, IL, KZ, KG, LV, LT, MD, RU, TJ, TR, UZ, CZ, EE]
+    translations:
+      - code: en
+        name: 'Visa QIWI Wallet'
+    settings:
+      - name: shopId
+      - name: appId
+      - name: appPassword
+      - name: pullPassword
+      - name: sign
+      - name: prefix
+        value: xcart_
+      - name: lifetime
+        value: 48
+
+XLite\Model\LanguageLabel:
+  - { directives: { allowedModel: 'XLite\Model\LanguageLabelTranslation' } }
+  - { name: 'Shop id', translations: [{ code: 'en', label: 'Shop id' }, { code: 'ru', label: 'Идентификатор магазина' }] }
+  - { name: 'API ID', translations: [{ code: 'en', label: 'API ID' }, { code: 'ru', label: 'Идентификатор пользователя (API ID)' }] }
+  - { name: 'API password', translations: [{ code: 'en', label: 'API password' }, { code: 'ru', label: 'Пароль' }] }
+  - { name: 'Pull password', translations: [{ code: 'en', label: 'Pull password' }, { code: 'ru', label: 'Пароль Pull-оповещения' }] }
+  - { name: 'Order id prefix', translations: [{ code: 'en', label: 'Order id prefix' }, { code: 'ru', label: 'Префикс транзакций' }] }
+  - { name: 'Order lifetime in hours', translations: [{ code: 'en', label: 'Order lifetime in hours' }, { code: 'ru', label: 'Время жизни счёта (в часах)' }] }
+  - { name: 'The phone number must be in international format (e.g. +7-111-111-11-11)', translations: [{ code: en, label: 'The phone number must be in the international format (e.g. +7-111-111-11-11)' }, { code: 'ru', label: 'Номер телефона должен быть в международном формате (например +7-111-111-11-11)' }] }
+  - name: 'To complete Qiwi payment gateway integration configuration do the following'
+    translations:
+      - code: 'en'
+        label: 'To complete the Qiwi payment gateway integration configuration:<ol style="padding-left: 20px; list-style-type: decimal;"><li><a target="_blank" href="https://ishop.qiwi.com/register/start.action">Create</a> Qiwi partner account.</li><li><a target="_blank" href="https://ishop.qiwi.com/options/merchants.action">Set up</a> REST protocol.</li><li>Set the Notification URL to <strong>{{callbackURL}}</strong></li><li>Adjust the "Sign" checkbox according to the corresponding Qiwi partner account setting.</li></ol>'
+      - code: 'ru'
+        label: 'Для настройки платежного метода Qiwi:<ol style="padding-left: 20px; list-style-type: decimal;"><li><a target="_blank" href="https://ishop.qiwi.com/register/start.action">Зарегистрируйте</a> партнерский аккаунт в системе Qiwi.</li><li><a target="_blank" href="https://ishop.qiwi.com/options/merchants.action">Настройте</a> REST протокол</li><li>В качестве URL для оповещения используйте <strong>{{callbackURL}}</strong></li><li>Флажок "Подпись" должен быть установлен или снят в зависимости от соответствующей настройки в аккаунте Qiwi.</li></ol>'
+  - { name: 'Qiwi sign', translations: [{ code: 'en', label: 'Sign' }, { code: 'ru', label: 'Подпись' }] }
+  - { name: 'Mobile phone number', translations: [{ code: en, label: 'Mobile phone number' }, { code: 'ru', label: 'Номер мобильного телефона' }] }
+

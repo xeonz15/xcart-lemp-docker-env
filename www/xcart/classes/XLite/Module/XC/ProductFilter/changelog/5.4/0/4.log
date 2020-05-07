@@ -1,0 +1,6 @@
+Version 5.4.0.4
+
+Fixes (2)
+2019-12-26 - [Bug] JS errors on a category page in the Customer area. Fixed. #BUG-8173 (Fedya Lavrentyev) #ProductFilter
+2019-11-01 - [Bug] If min price setting was changed in the product filter on a category page, the max price setting was also changed along with it and thus reset to a wrong value. Fixed. #BUG-7740 (Nikita Erkhov) #ProductFilter
+

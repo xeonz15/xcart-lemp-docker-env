@@ -1,0 +1,2 @@
+2020/05/04 16:23:37 [error] 6#6: *45 open() "/var/www/xcart/check/for/clean/urls.html" failed (2: No such file or directory), client: 172.18.0.1, server: _, request: "GET /check/for/clean/urls.html HTTP/1.1", host: "192.168.0.13"
+2020/05/04 16:23:37 [error] 6#6: *45 open() "/var/www/xcart/404.html" failed (2: No such file or directory), client: 172.18.0.1, server: _, request: "GET /check/for/clean/urls.html HTTP/1.1", host: "192.168.0.13"

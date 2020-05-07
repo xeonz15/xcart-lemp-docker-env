@@ -1,0 +1,32 @@
+{##
+ # Onboarding wizard online payment method block
+ #}
+
+<xlite-onboarding-paypal-card inline-template>
+  <div class="online online-paypal" :class="classes">
+
+    <div class="image">
+      <img src="{{ asset('modules/CDev/Paypal/onboarding/logo.png') }}" alt="{{ t('PayPal Express Checkout') }}" title="{{ t('PayPal Express Checkout') }}" />
+    </div>
+
+    <div class="note">
+      {{ t('No merchant account required. Simple onboarding for you and easy checkout for your customers.') }}
+    </div>
+
+    {% if this.isPaypalConfigured() %}
+    <div class="switcher{% if this.isPaypalMethodEnabled() %} enabled{% endif %}">
+      <span class="inactive">{{ t('checkbox.onoff.off') }}</span>
+      <a href="#" @click.prevent="switchPaypalMethod({{ this.getMethodId() }}, $event)">
+        <div>
+          <span class="fa fa-check"></span>
+        </div>
+      </a>
+      <span class="active">{{ t('checkbox.onoff.on') }}</span>
+    </div>
+    {% else %}
+    <div class="button">
+      {{ widget('\\XLite\\Module\\CDev\\Paypal\\View\\Button\\OnboardingSignup', label=t('Launch (Paypal Onboarding)')) }}
+    </div>
+    {% endif %}
+  </div>
+</xlite-onboarding-paypal-card>

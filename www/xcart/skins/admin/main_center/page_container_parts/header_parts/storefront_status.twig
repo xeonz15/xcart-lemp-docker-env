@@ -1,0 +1,14 @@
+{##
+ # Storefront status
+ #}
+
+<div {{ this.printTagAttributes(this.getContainerTagAttributes())|raw }}>
+  {% if this.isTogglerVisible() %}
+    <a href="{{ this.getLink() }}" {{ this.printTagAttributes(this.getTogglerTagAttributes())|raw }}><div><span class="svg">{{ this.getSVGImage('images/check.svg')|raw }}</span></div></a>
+  {% endif %}
+  <a href="{{ this.getOpenedShopURL() }}" class="link opened" target="_blank">{{ t('View storefront') }}</a>
+  <a href="{{ this.getClosedShopURL() }}" class="link closed" target="_blank" data-toggle="tooltip" data-placement="bottom" title="{{ t('Private link') }}">
+    {{ t('Storefront is closed') }}
+  </a>
+  {#<span class="link closed">{{ this.getCloseTitle()|raw }}</span>#}
+</div>

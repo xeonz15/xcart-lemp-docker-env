@@ -1,0 +1,83 @@
+{##
+ # WebMoney payment system configuration page
+ #}
+
+<p>{{ t('To complete WebMoney payment system integration configuration', {'webmoneyCallbackURL': this.getWebmoneyCallbackURL()})|raw }}</p>
+
+<table cellspacing="1" cellpadding="5" class="settings-table">
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_purse">{{ t('Purse') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_purse" name="settings[purse]" value="{{ this.paymentMethod.getSetting('purse') }}" class="field-required" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_secret_key">{{ t('Secret key') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_secret_key" name="settings[secret_key]" value="{{ this.paymentMethod.getSetting('secret_key') }}" class="field-required" />
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+    <label for="settings_hash_type">{{ t('Hash type') }}</label>
+    </td>
+    <td>
+      <select id="settings_hash_type" name="settings[hash_type]" value="{{ this.paymentMethod.getSetting('hash_type') }}">
+        <option value="MD5" {% if this.paymentMethod.getSetting('hash_type') == 'MD5' %}selected="selected"{% endif %}>MD5</option>
+        <option value="SHA256" {% if this.paymentMethod.getSetting('hash_type') == 'SHA256' %}selected="selected"{% endif %}>SHA256</option>
+        <option value="SIGN" {% if this.paymentMethod.getSetting('hash_type') == 'SIGN' %}selected="selected"{% endif %}>SIGN</option>
+      </select>
+    </td>
+  </tr>
+
+  <tbody id="hash_type_sign_specific">
+
+    <tr>
+      <td class="setting-name">
+      <label for="settings_wmid">{{ t('WMID') }}</label>
+      </td>
+      <td>
+        <input type="text" id="settings_wmid" value="{{ this.paymentMethod.getSetting('wmid') }}" name="settings[wmid]" class="field-required" />
+      </td>
+    </tr>
+
+    <tr>
+      <td class="setting-name">
+      <label for="settings_key_path">{{ t('WebMoney Keeper Classic key path') }}</label>
+      </td>
+      <td>
+        <input type="text" id="settings_key_path" value="{{ this.paymentMethod.getSetting('key_path') }}" name="settings[key_path]" class="field-required" />
+      </td>
+    </tr>
+
+    <tr>
+      <td class="setting-name">
+      <label for="settings_key_password">{{ t('Key password') }}</label>
+      </td>
+      <td>
+        <input type="password" id="settings_key_password" value="{{ this.paymentMethod.getSetting('key_password') }}" name="settings[key_password]" class="field-required" />
+      </td>
+    </tr>
+
+  </tbody>
+
+</table>
+
+<script type="text/javascript">
+//<![CDATA[
+(function ($) {
+
+  $('#settings_hash_type').change(function () {
+    $('#hash_type_sign_specific').toggle($(this).val() == 'SIGN');
+  }).change();
+
+})(jQuery);
+//]]>
+</script>

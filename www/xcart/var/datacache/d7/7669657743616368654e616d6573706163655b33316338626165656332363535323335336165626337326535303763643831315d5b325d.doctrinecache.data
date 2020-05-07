@@ -1,0 +1,87 @@
+1588613094
+s:2518:"O:34:"XLite\Core\View\DTO\RenderedWidget":3:{s:7:"content";s:2408:"
+<div id="secondary-menu" class="clearfix">
+ <ul class="footer-menu">
+                        
+      
+      <li  class="leaf first">
+                <span class="footer-title">Акции</span>
+                  
+                  <ul>
+      
+      
+      <li  class="leaf">
+                <a href="cart.php?target=sale_products" >Распродажа</a>
+                  
+                        
+      
+      <li  class="leaf">
+                <a href="cart.php?target=coming_soon" >Скоро в продаже</a>
+                  
+                        
+      
+      <li  class="leaf">
+                <a href="cart.php?target=new_arrivals" >Новинки</a>
+                  
+                        
+      </ul></li>
+      <li  class="leaf">
+                <span class="footer-title">Информация</span>
+                  
+                  <ul>
+      
+      
+      <li  class="leaf">
+                <a href="shipping" >Правила доставки</a>
+                  
+                        
+      
+      <li  class="leaf">
+                <a href="?target=map" >Карта сайта</a>
+                  
+                        
+      
+      <li  class="leaf">
+                <a href="terms-and-conditions" >Условия использования</a>
+                  
+                        
+      </ul></li>
+      <li  class="leaf">
+                <span class="footer-title">Сервисы</span>
+                  
+                  <ul>
+      
+      
+      <li  class="leaf">
+                <a href="shipping" >Доставка</a>
+                  
+                        
+      
+      <li  class="leaf">
+                <a href="cart.php?target=contact_us" >Напишите нам</a>
+                  
+                        
+      </ul></li>
+      <li  class="leaf">
+                <span class="footer-title">Мой X-Cart</span>
+                  
+                  <ul>
+      
+      
+      <li  class="leaf">
+                <a href="?target=address_book" >Мои адреса</a>
+                  
+                        
+      
+      <li  class="leaf">
+                <a href="?target=order_list" >Мои заказы</a>
+                  
+                        
+      
+      <li  class="leaf last">
+                <a href="?target=profile" >Личный кабинет</a>
+                  
+          </li>
+    </ul></li>
+ </ul>
+</div>";s:6:"assets";a:0:{}s:8:"metaTags";a:0:{}}";

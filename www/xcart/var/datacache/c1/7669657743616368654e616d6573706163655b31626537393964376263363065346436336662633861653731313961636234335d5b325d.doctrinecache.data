@@ -1,0 +1,131 @@
+1589214308
+s:12734:"O:34:"XLite\Core\View\DTO\RenderedWidget":3:{s:7:"content";s:12623:"
+<li class="menu-item system-settings icon __dynamic_widget_placeholder__476_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNjY6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czoxNToic3lzdGVtX3NldHRpbmdzIjt9Ijt9">
+  
+<div class="line">
+      <a href="admin.php?target=db_backup" class="link" title="Инструменты"><span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32px" height="32px" viewBox="-19 698.9 32 32" enable-background="new -19 698.9 32 32" xml:space="preserve"><g transform="translate(0.000000,588.000000) scale(0.100000,-0.100000)"><path d="M-55.8-1110.2c-2.1-0.6-3.8-2.6-4.6-5.4c-0.8-2.9-3.6-19.5-4.7-28c-1.4-11.6-1-10.4-4.4-11.6c-1.7-0.5-5.9-2.2-9.2-3.7
+		c-3.4-1.5-6.4-2.7-6.6-2.7c-0.2,0-7,5.1-15.1,11.3c-8.1,6.2-15.3,11.6-16.1,11.9c-2.5,1-4.4,0.6-7.7-1.5
+		c-8.3-5.4-32.4-29.8-35.6-36.1c-2.1-4.1-1.6-5.3,6.4-15c6.1-7.4,16.4-21.1,16.4-21.8c0-0.3-1.1-2.9-2.4-5.7c-1.3-2.9-3.1-7.1-4-9.5
+		c-0.8-2.4-1.7-4.3-1.9-4.3c-0.8,0-37.4-5.6-38.6-5.9c-2-0.6-4.5-3.8-4.9-6.4c-0.2-1.3-0.3-12.9-0.2-25.9l0.2-23.5l1.3-1.8
+		c0.7-0.9,1.7-2,2.2-2.3c0.6-0.3,9.8-1.8,20.6-3.4l19.6-2.9l1.7-5c1.3-3.9,4.9-12.2,6.6-15.3c0.2-0.3-5.7-8.1-16.3-21.7
+		c-6.4-8.2-6.9-9.2-6.6-12.5c0.4-4,2.9-7.1,18.6-22.7c16.5-16.4,18.6-18.2,21.8-18.2c2.9,0,3.4,0.3,19.8,12.8
+		c7.4,5.6,13.8,10.4,14.1,10.6c0.3,0.2,2.7-0.5,5.3-1.7c2.5-1.1,6.7-2.8,9.3-3.8l4.7-1.8l3.2-20.4l3.1-20.4l1.8-1.5
+		c1-0.8,2.8-1.7,4-1.8c1.3-0.2,13-0.3,26-0.2c26.3,0.2,25.8,0.1,27.6,3.7c1.4,2.7,3.6,15.4,6.7,38.5c0.3,2.2,0.4,2.3,4,3.5
+		c2,0.7,6.1,2.4,9,3.6c2.9,1.3,5.6,2.4,6,2.4c0.3,0,6.9-4.9,14.5-10.9c7.7-6,14.8-11.3,15.9-11.9c3.9-2,6.4-1.1,13.9,5.1
+		c8.1,6.7,23.7,22.8,29.3,30.4c2.4,3.2,2.8,5.7,1.4,8.4c-0.4,0.8-3.3,4.6-6.3,8.3c-3,3.8-8.1,10.3-11.3,14.5l-5.8,7.7l1.8,3.6
+		c1,2,2.8,6.3,4.1,9.5l2.3,5.9l7.8,1.2c34.5,5.3,31.8,4.8,33.6,6.5c0.9,0.8,1.9,2.5,2.2,3.6c0.3,1.3,0.5,11,0.4,26.3l-0.2,24.2
+		l-1.3,1.8c-0.7,0.9-1.7,2-2.3,2.3c-0.5,0.3-9.3,1.8-19.5,3.3c-10.1,1.5-19,2.9-19.6,3.1c-0.9,0.2-1.6,1.4-2.9,5.3
+		c-1,2.7-2.9,7.2-4.3,9.9c-1.8,3.7-2.3,5.3-1.9,6c0.3,0.5,4.8,6.4,10,13.1c12.4,16,12.7,16.4,12.7,19.6c0,2.3-0.4,3.1-2.8,6.4
+		c-3.3,4.4-31,32.2-33.8,33.9c-2,1.2-5.6,1.4-7.4,0.4c-0.6-0.4-7.6-5.5-15.5-11.5c-7.9-5.9-14.6-10.9-15-11.2
+		c-0.3-0.2-2.3,0.4-4.4,1.3c-2,0.9-6.2,2.7-9.3,3.8l-5.5,2.2L3.1-1134c-3.3,21.7-3.5,22.4-7.2,23.7
+		C-6.4-1109.6-53.1-1109.4-55.8-1110.2z M-15.5-1217.6c9.5-2.8,16.5-7.1,23.7-14.5c6.8-7,10.6-13.6,13.3-23.3
+		c1.1-3.7,1.3-5.6,1.2-13.4c0-9.9-0.8-14.1-3.9-21.2c-3.4-7.7-10.3-16.2-17.5-21.8c-4.3-3.3-12.1-7-17.7-8.6c-6.4-1.7-20.7-1.7-27,0
+		c-9.2,2.5-16.1,6.5-23.4,13.5c-10.3,9.9-15.4,21.2-16.1,35.5c-0.7,15.3,3.9,27.7,14.2,38.6c7.1,7.6,14.2,12,23,14.8
+		c6.2,1.9,8.7,2.2,17.3,2C-21.7-1216.1-19.5-1216.4-15.5-1217.6z"/></g></svg></span><span class="title">Инструменты</span></a>
+      </div>
+
+      <div class="box">
+      <ul>
+        <li class="menu-item title">
+          
+<div class="line">
+      <a href="admin.php?target=db_backup" class="link" title="Инструменты"><span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32px" height="32px" viewBox="-19 698.9 32 32" enable-background="new -19 698.9 32 32" xml:space="preserve"><g transform="translate(0.000000,588.000000) scale(0.100000,-0.100000)"><path d="M-55.8-1110.2c-2.1-0.6-3.8-2.6-4.6-5.4c-0.8-2.9-3.6-19.5-4.7-28c-1.4-11.6-1-10.4-4.4-11.6c-1.7-0.5-5.9-2.2-9.2-3.7
+		c-3.4-1.5-6.4-2.7-6.6-2.7c-0.2,0-7,5.1-15.1,11.3c-8.1,6.2-15.3,11.6-16.1,11.9c-2.5,1-4.4,0.6-7.7-1.5
+		c-8.3-5.4-32.4-29.8-35.6-36.1c-2.1-4.1-1.6-5.3,6.4-15c6.1-7.4,16.4-21.1,16.4-21.8c0-0.3-1.1-2.9-2.4-5.7c-1.3-2.9-3.1-7.1-4-9.5
+		c-0.8-2.4-1.7-4.3-1.9-4.3c-0.8,0-37.4-5.6-38.6-5.9c-2-0.6-4.5-3.8-4.9-6.4c-0.2-1.3-0.3-12.9-0.2-25.9l0.2-23.5l1.3-1.8
+		c0.7-0.9,1.7-2,2.2-2.3c0.6-0.3,9.8-1.8,20.6-3.4l19.6-2.9l1.7-5c1.3-3.9,4.9-12.2,6.6-15.3c0.2-0.3-5.7-8.1-16.3-21.7
+		c-6.4-8.2-6.9-9.2-6.6-12.5c0.4-4,2.9-7.1,18.6-22.7c16.5-16.4,18.6-18.2,21.8-18.2c2.9,0,3.4,0.3,19.8,12.8
+		c7.4,5.6,13.8,10.4,14.1,10.6c0.3,0.2,2.7-0.5,5.3-1.7c2.5-1.1,6.7-2.8,9.3-3.8l4.7-1.8l3.2-20.4l3.1-20.4l1.8-1.5
+		c1-0.8,2.8-1.7,4-1.8c1.3-0.2,13-0.3,26-0.2c26.3,0.2,25.8,0.1,27.6,3.7c1.4,2.7,3.6,15.4,6.7,38.5c0.3,2.2,0.4,2.3,4,3.5
+		c2,0.7,6.1,2.4,9,3.6c2.9,1.3,5.6,2.4,6,2.4c0.3,0,6.9-4.9,14.5-10.9c7.7-6,14.8-11.3,15.9-11.9c3.9-2,6.4-1.1,13.9,5.1
+		c8.1,6.7,23.7,22.8,29.3,30.4c2.4,3.2,2.8,5.7,1.4,8.4c-0.4,0.8-3.3,4.6-6.3,8.3c-3,3.8-8.1,10.3-11.3,14.5l-5.8,7.7l1.8,3.6
+		c1,2,2.8,6.3,4.1,9.5l2.3,5.9l7.8,1.2c34.5,5.3,31.8,4.8,33.6,6.5c0.9,0.8,1.9,2.5,2.2,3.6c0.3,1.3,0.5,11,0.4,26.3l-0.2,24.2
+		l-1.3,1.8c-0.7,0.9-1.7,2-2.3,2.3c-0.5,0.3-9.3,1.8-19.5,3.3c-10.1,1.5-19,2.9-19.6,3.1c-0.9,0.2-1.6,1.4-2.9,5.3
+		c-1,2.7-2.9,7.2-4.3,9.9c-1.8,3.7-2.3,5.3-1.9,6c0.3,0.5,4.8,6.4,10,13.1c12.4,16,12.7,16.4,12.7,19.6c0,2.3-0.4,3.1-2.8,6.4
+		c-3.3,4.4-31,32.2-33.8,33.9c-2,1.2-5.6,1.4-7.4,0.4c-0.6-0.4-7.6-5.5-15.5-11.5c-7.9-5.9-14.6-10.9-15-11.2
+		c-0.3-0.2-2.3,0.4-4.4,1.3c-2,0.9-6.2,2.7-9.3,3.8l-5.5,2.2L3.1-1134c-3.3,21.7-3.5,22.4-7.2,23.7
+		C-6.4-1109.6-53.1-1109.4-55.8-1110.2z M-15.5-1217.6c9.5-2.8,16.5-7.1,23.7-14.5c6.8-7,10.6-13.6,13.3-23.3
+		c1.1-3.7,1.3-5.6,1.2-13.4c0-9.9-0.8-14.1-3.9-21.2c-3.4-7.7-10.3-16.2-17.5-21.8c-4.3-3.3-12.1-7-17.7-8.6c-6.4-1.7-20.7-1.7-27,0
+		c-9.2,2.5-16.1,6.5-23.4,13.5c-10.3,9.9-15.4,21.2-16.1,35.5c-0.7,15.3,3.9,27.7,14.2,38.6c7.1,7.6,14.2,12,23,14.8
+		c6.2,1.9,8.7,2.2,17.3,2C-21.7-1216.1-19.5-1216.4-15.5-1217.6z"/></g></svg></span><span class="title">Инструменты</span></a>
+      </div>
+        </li>
+                  
+<li class="menu-item environment no-icon __dynamic_widget_placeholder__472_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNjI6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czoxMToiZW52aXJvbm1lbnQiO30iO30= empty">
+  
+<div class="line">
+      <a href="admin.php?target=settings&amp;page=Environment" class="link" title="Информация о системе"><span class="icon"></span><span class="title">Информация о системе</span></a>
+      </div>
+
+  </li>
+
+                  
+<li class="menu-item rebuild-cache no-icon __dynamic_widget_placeholder__476_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNjQ6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czoxMzoicmVidWlsZF9jYWNoZSI7fSI7fQ== empty">
+  
+<div class="line">
+      <a href="admin.php?target=cache_management" class="link" title="Управление кэшем"><span class="icon"></span><span class="title">Управление кэшем</span></a>
+      </div>
+
+  </li>
+
+                  
+<li class="menu-item db-backup no-icon __dynamic_widget_placeholder__468_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNTk6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czo5OiJkYl9iYWNrdXAiO30iO30= empty">
+  
+<div class="line">
+      <a href="admin.php?target=db_backup" class="link" title="База данных"><span class="icon"></span><span class="title">База данных</span></a>
+      </div>
+
+  </li>
+
+                  
+<li class="menu-item integrity-check no-icon __dynamic_widget_placeholder__476_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNjY6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czoxNToiaW50ZWdyaXR5X2NoZWNrIjt9Ijt9 empty">
+  
+<div class="line">
+      <a href="http://192.168.0.13/service.php?locale=ru#/integrity-check?" class="link" title="Проверка целостности файлов"><span class="icon"></span><span class="title">Проверка целостности файлов</span></a>
+      </div>
+
+  </li>
+
+                  
+<li class="menu-item consistency-check no-icon __dynamic_widget_placeholder__480_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNjg6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czoxNzoiY29uc2lzdGVuY3lfY2hlY2siO30iO30= empty">
+  
+<div class="line">
+      <a href="admin.php?target=consistency_check" class="link" title="Проверка целостности БД"><span class="icon"></span><span class="title">Проверка целостности БД</span></a>
+      </div>
+
+  </li>
+
+                  
+<li class="menu-item view-log-file no-icon __dynamic_widget_placeholder__476_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNjQ6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czoxMzoidmlld19sb2dfZmlsZSI7fSI7fQ== empty">
+  
+<div class="line">
+      <a href="admin.php?target=logs" class="link" title="Системные логи"><span class="icon"></span><span class="title">Системные логи</span></a>
+      </div>
+
+  </li>
+
+                  
+<li class="menu-item remove-data no-icon __dynamic_widget_placeholder__472_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNjI6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czoxMToicmVtb3ZlX2RhdGEiO30iO30= empty">
+  
+<div class="line">
+      <a href="admin.php?target=remove_data" class="link" title="Удаленние данных"><span class="icon"></span><span class="title">Удаленние данных</span></a>
+      </div>
+
+  </li>
+
+                  
+<li class="menu-item security-settings no-icon __dynamic_widget_placeholder__480_YToyOntzOjU6ImNsYXNzIjtzOjQzOiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cRXhwYW5kZWRNZW51Tm9kZUNsYXNzIjtzOjY6InBhcmFtcyI7czoyNjg6ImE6Njp7czoxMDoiaXNFeHBvcnRlZCI7YjowO3M6ODoidGVtcGxhdGUiO047czo4OiJtZXRhZGF0YSI7YTowOnt9czo1OiJtb2RlcyI7YTowOnt9czo3OiJkZWNpZGVyIjtDOjM3OiJYTGl0ZVxWaWV3XE1lbnVcQWRtaW5cU2VsZWN0ZWREZWNpZGVyIjo4NDp7YToyOntpOjA7czozMDoiWExpdGVcVmlld1xNZW51XEFkbWluXExlZnRNZW51IjtpOjE7czoyNDoiZ2V0Qm90dG9tSXRlbXNGb3JEZWNpZGVyIjt9fXM6NDoibmFtZSI7czoxNzoic2VjdXJpdHlfc2V0dGluZ3MiO30iO30= empty">
+  
+<div class="line">
+      <a href="admin.php?target=https_settings" class="link" title="Параметры HTTPS"><span class="icon"></span><span class="title">Параметры HTTPS</span></a>
+      </div>
+
+  </li>
+
+                
+      </ul>
+    </div>
+  </li>
+";s:6:"assets";a:0:{}s:8:"metaTags";a:0:{}}";

@@ -1,0 +1,112 @@
+{##
+ # YandexMoney configuration page
+ #}
+<table cellspacing="1" cellpadding="5" class="settings-table yandex-money">
+  <tr class="common_credentials">
+    <td class="setting-name">
+      <label for="settings_shopId">{{ t('shopId') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_shopId" name="settings[shopId]"
+             value="{{ this.paymentMethod.getSetting('shopId') }}" class="validate[required,maxSize[255]]"/>
+      <div class="help-wrapper">
+        {{ widget('XLite\\View\\Tooltip', text=t('yandex-checkout-shopid-description'), isImageTag='true', className='help-icon') }}
+      </div>
+    </td>
+  </tr>
+  <tr class="common_credentials">
+    <td class="setting-name">
+      <label for="settings_scid">{{ t('Secret key') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_scid" name="settings[scid]" value="{{ this.paymentMethod.getSetting('scid') }}"
+             class="validate[required,maxSize[255]]"/>
+      <div class="help-wrapper">
+        {{ widget('XLite\\View\\Tooltip', text=t('yandex-checkout-scid-description'), isImageTag='true', className='help-icon') }}
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_sendReceiptData">{{ t('Send the receipt data to Yandex.Checkout (54-FZ)') }}</label>
+    </td>
+    <td>
+      {{ widget('XLite\\View\\FormField\\Input\\Checkbox\\OnOff', fieldId='settings_sendReceiptData', fieldName='settings[sendReceiptData]', fieldOnly='true', value=this.paymentMethod.getSetting('sendReceiptData')) }}
+    </td>
+  </tr>
+  <tr>
+    <td class="setting-name">
+      <label for="settings_default_vat_rate">{{ t('Default VAT Rate') }}</label>
+    </td>
+    <td>
+      {{ widget('XLite\\Module\\XC\\YandexCheckout\\View\\FormField\\Select\\VATRate', fieldId='settings_default_vat_rate', fieldName='settings[defaultVATRate]', fieldOnly='true', value=this.paymentMethod.getSetting('defaultVATRate'), showPlaceholder=false) }}
+      <div class="help-wrapper">
+        {{ widget('XLite\\View\\Tooltip', text=t('vat-rate-description'), isImageTag='true', className='help-icon') }}
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name"><label for="settings_type">{{ t('Transaction type') }}</label></td>
+    <td>
+      <div class="table-value settings_type-value">
+        <select id="settings_type" name="settings[type]">
+          <option value="sale" {% if this.paymentMethod.getSetting('type') == 'sale' %} selected="selected" {% endif %}>
+            {{ t('Common payment') }}
+          </option>
+          <option value="auth" {% if this.paymentMethod.getSetting('type') == 'auth' %} selected="selected" {% endif %}>
+            {{ t('Delayed payment') }}
+          </option>
+        </select>
+        <div class="help-wrapper">
+          {{ widget('XLite\\View\\Tooltip', text=t('payment-mode-description'), isImageTag='true', className='help-icon') }}
+        </div>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_customerContactMode">{{ t('Send OFD check to') }}</label>
+    </td>
+    <td>
+        {{ widget('XLite\\Module\\XC\\YandexCheckout\\View\\FormField\\Select\\CustomerContactMode', fieldId='settings_customerContactMode', fieldName='settings[customerContactMode]', fieldOnly='true', value=this.paymentMethod.getSetting('customerContactMode')) }}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label for="settings_prefix">{{ t('Order prefix') }}</label>
+    </td>
+    <td>
+      <input type="text" id="settings_prefix" name="settings[prefix]"
+             value="{{ this.paymentMethod.getSetting('prefix') }}"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="setting-name">
+      <label>{{ t('URL for payment notifications') }}</label>
+    </td>
+    <td>
+      <div class="webhook">
+        {{ widget('\\XLite\\View\\FormField\\Input\\Text',
+          fieldId='webhook_url',
+          fieldOnly=true,
+          attributes={readonly: 'readonly'},
+          value=this.paymentMethod.processor.yandexMoneyCallbackUrl) }}
+      </div>
+      <div class="help-wrapper">
+        {{ widget('XLite\\View\\Tooltip', text=t('yandex-checkout-callback-url-help'), isImageTag='true', className='help-icon') }}
+      </div>
+    </td>
+  </tr>
+</table>
+
+{{ widget('\\XLite\\Module\\XC\\YandexCheckout\\View\\StickyPanel\\Config') }}
+
+<div class="yandex-logo">
+  <a href="//www.x-cart.com/yapromo" target="_blank"><img
+            src="{{ this.layout.getResourceWebPath('modules/XC/YandexCheckout/yandex_banner.png') }}" alt=""/></a>
+</div>

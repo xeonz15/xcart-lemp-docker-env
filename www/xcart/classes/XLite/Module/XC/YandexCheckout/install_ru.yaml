@@ -1,0 +1,66 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\LanguageLabel:
+  - { name: "URL for payment notifications", translations: [{ code: ru, label: "Адрес для уведомлений" }] }
+  - { name: "shopId", translations: [{ code: ru, label: "shopId" }] }
+  - { name: "Secret key", translations: [{ code: ru, label: "Секретный ключ" }] }
+  - { name: "Order prefix", translations: [{code: ru, label: "Префикс для номера заказа"}] }
+  - { name: "Test/Live mode", translations: [{code: ru, label: "Действующий режим/Проверка"}] }
+  - { name: 'Payment transaction is in progress. Please, try again later.', translations: [{ code: ru, label: '' }] }
+  - { name: 'Payment transaction failure.', translations: [{ code: ru, label: '' }] }
+  - { name: "VAT Rate", translations: [{code: ru, label: "Ставка НДС"}] }
+  - { name: "Default VAT Rate", translations: [{code: ru, label: "Ставка НДС по умолчанию"}] }
+  - { name: "Send the receipt data to Yandex.Checkout (54-FZ)", translations: [{ code: ru, label: "Отправлять в Яндекс.Кассу данные для чеков (54-ФЗ)" }] }
+  - { name: "yandex-checkout-shopid-description", translations: [{ code: ru, label: "Скопируйте shopId из личного кабинета Яндекс.Кассы." }] }
+  - { name: "yandex-checkout-scid-description", translations: [{ code: ru, label: "Выпустите и активируйте секретный ключ в личном кабинете Яндекс.Кассы, а затем скопируйте его сюда." }] }
+  - { name: "vat-rate-description", translations: [{code: ru, label: "Вы также можете назначить отдельную ставку НДС для каждого налогового класса <a href='{{taxClassesUrl}} target='_blank'>на странице настройки налогов</a>. Применяемое к товару значение будет передаваться вместе с остальными фискальными данными, если на стороне Яндекс.Кассы настроено взаимодействие с онлайн кассой."}] }
+  - { name: "yandex-checkout-callback-url-help", translations: [{ code: ru, label: "Этот адрес необходимо указать на странице настроек Яндекс.Кассы, чтобы включить обработку оповещений о состоянии платежа." }] }
+
+  - { name: "No VAT", translations: [{code: ru, label: "без НДС"}] }
+  - { name: "0% VAT", translations: [{code: ru, label: "НДС по ставке 0%;"}] }
+  - { name: "10% VAT", translations: [{code: ru, label: "НДС чека по ставке 10%"}] }
+  - { name: "20% VAT", translations: [{code: ru, label: "НДС чека по ставке 20%"}] }
+  - { name: "10/110 VAT", translations: [{code: ru, label: "НДС чека по расчетной ставке 10/110"}] }
+  - { name: "20/120 VAT", translations: [{code: ru, label: "НДС чека по расчетной ставке 20/120"}] }
+
+  - { name: "Common payment", translations: [{code: ru, label: "Стандартный процесс оплаты"}] }
+  - { name: "Delayed payment", translations: [{code: ru, label: "Отложенная оплата"}] }
+  - { name: "payment-mode-description", translations: [{code: ru, label: "В отличие от стандартного проесса оплаты с банковской карты, отложенная оплата проводится в два этапа: сначала деньги блокируются на карте пользователя, и только потом списываются, по вашему запросу. Такой способ оплаты также называют холдированием или предавторизацией."}] }
+
+  - { name: "certificate-description", translations: [{code: ru, label: "Сертификат нужен для работы по протоколам Яндекс.Денег с проведением финансовых операций в рамках управления заказами (MWS): возвратов, отложенных платежей и других."}] }
+
+  - { name: 'Yandex.Checkout is not configured and cannot be used.', translations: [{code: ru, label: 'Способ оплаты Яндекс.Касса не настроен и не может быть использован.'}] }
+  - { name: 'Yandex Payment Solution cannot be used because the option "Display prices in catalog including VAT / GST" in VAT settings is disabled.', translations: [{code: ru, label: 'Способ оплаты Яндекс.Касса не может быть использован, так как в <a href="{{url}}">настройках НДС</a> отключена опция "Отображать в каталоге цены с учетом налога на добавленную стоимость".'}] }
+  - { name: 'Yandex', translations: [{code: ru, label: 'Яндекс'}] }
+
+  - { name: 'A simple service providing online payments — for live and business.', translations: [{ code: ru, label: 'Простое решение для приема электронных платежей — с банковских карт и не только. Работает в России и за ее пределами.' }] }
+  - { name: "Yandex.Checkout", translations: [{ code: ru, label: "Яндекс.Касса" }] }
+  - { name: "Order payment [id] for [store]", translations: [{ code: ru, label: "Оплата заказа ({{id}}) в магазине «{{store}}»" }] }
+  - { name: 'Launch Yandex', translations: [{ code: ru, label: 'Подключить' }] }
+  - { name: 'Configure (Yandex.Checkout)', translations: [{ code: ru, label: 'Настроить' }] }
+
+  - { name: 'Payment subject', translations: [{ code: ru, label: 'Признак предмета расчета' }] }
+  - { name: 'ym_subj_commodity', translations: [{ code: ru, label: 'Товар' }] }
+  - { name: 'ym_subj_excise', translations: [{ code: ru, label: 'Подакцизный товар' }] }
+  - { name: 'ym_subj_job', translations: [{ code: ru, label: 'Работа' }] }
+  - { name: 'ym_subj_service', translations: [{ code: ru, label: 'Услуга' }] }
+  - { name: 'ym_subj_gambling_bet', translations: [{ code: ru, label: 'Ставка в азартной игре' }] }
+  - { name: 'ym_subj_gambling_prize', translations: [{ code: ru, label: 'Выигрыш в азартной игре' }] }
+  - { name: 'ym_subj_lottery', translations: [{ code: ru, label: 'Лотерейный билет' }] }
+  - { name: 'ym_subj_lottery_prize', translations: [{ code: ru, label: 'Выигрыш в лотерею' }] }
+  - { name: 'ym_subj_intellectual_activity', translations: [{ code: ru, label: 'Результаты интеллектуальной деятельности' }] }
+  - { name: 'ym_subj_payment', translations: [{ code: ru, label: 'Платеж' }] }
+  - { name: 'ym_subj_agent_commission', translations: [{ code: ru, label: 'Агентское вознаграждение' }] }
+  - { name: 'ym_subj_composite', translations: [{ code: ru, label: 'Несколько вариантов' }] }
+  - { name: 'ym_subj_another', translations: [{ code: ru, label: 'Другое' }] }
+  - { name: 'Invalid payment subject value', translations: [{ code: ru, label: 'Неверное значение признака предмет расчета' }] }
+  - { name: 'Default payment subject will be assigned', translations: [{ code: ru, label: 'Будет установлено значение признака предмета расчета по умолчанию' }] }
+
+  - { name: 'Send OFD check to', translations: [{ code: ru, label: 'Отсылать чек из ОФД' }] }
+  - { name: '[customer_contact_yandex] Email', translations: [{ code: ru, label: 'На эл.почту' }] }
+  - { name: '[customer_contact_yandex] Phone', translations: [{ code: ru, label: 'На номер телефона' }] }

@@ -1,0 +1,15 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Config:
+  - { directives: { allowedModel: 'XLite\Model\ConfigTranslation' } }
+  - { name: 'percent_format', category: 'Units', translations: [{ code: 'ru', option_name: 'Формат отображения процентов' }] }
+
+XLite\Model\LanguageLabel:
+  - { name: 'percent X off', translations: [{ code: ru, label: '-{{percent}}' }] }
+  - { name: "The Clean URL entered is already in use.", translations: [{ code: ru, label: 'Указанный ЧПУ уже <a href="{{entityURL}}" target="_blank">используется</a>. Используйте подсказку "Разрешение конфликта".' }] }
+  - { name: "Try to search worldwide or find the needed solution in marketplace", translations: [{ code: ru, label: 'Пожалуйста, дайте нам знать, если вы хотите <a target="_blank" href="{{URL}}">предложить идею</a>, или <a target="_blank" href="{{URL}}">свяжитесь с нами</a> чтобы бесплатно запросить расчет цены на услуги разработки.' }] }

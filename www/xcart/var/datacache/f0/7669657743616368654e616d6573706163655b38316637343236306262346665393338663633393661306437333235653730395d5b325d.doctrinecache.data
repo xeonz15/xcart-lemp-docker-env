@@ -1,0 +1,47 @@
+1588613087
+s:1335:"O:34:"XLite\Core\View\DTO\RenderedWidget":3:{s:7:"content";s:1225:"
+<ul class="nav navbar-nav top-main-menu">
+  
+                
+    
+    <li  class="leaf first active">
+          <a href=" " class="active"><span>Главная</span></a>
+                    </li>
+          
+    
+    <li  class="leaf has-sub">
+          <span class="primary-title">Акции</span>
+            <ul>
+    
+    
+    <li  class="leaf">
+          <a href="cart.php?target=sale_products" ><span>Распродажа</span></a>
+                    </li>
+          
+    
+    <li  class="leaf">
+          <a href="cart.php?target=bestsellers" ><span>Бестселлеры</span></a>
+                    </li>
+          
+    </ul></li>
+    <li  class="leaf">
+          <a href="shipping" ><span>Доставка</span></a>
+                    </li>
+          
+    
+    <li  class="leaf">
+          <a href="cart.php?target=new_arrivals" ><span>Новинки</span></a>
+                    </li>
+          
+    
+    <li  class="leaf">
+          <a href="cart.php?target=coming_soon" ><span>Скоро в продаже</span></a>
+                    </li>
+          
+    
+    <li  class="leaf last">
+          <a href="cart.php?target=contact_us" ><span>Напишите нам</span></a>
+          </li>
+  
+</ul>
+";s:6:"assets";a:0:{}s:8:"metaTags";a:0:{}}";

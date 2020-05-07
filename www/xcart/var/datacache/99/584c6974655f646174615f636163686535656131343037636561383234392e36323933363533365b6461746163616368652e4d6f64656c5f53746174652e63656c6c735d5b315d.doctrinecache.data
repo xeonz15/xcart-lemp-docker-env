@@ -1,0 +1,2 @@
+0
+a:4:{s:3:"all";a:4:{s:8:"relation";a:1:{i:0;s:20:"\XLite\Model\Country";}s:7:"keyType";s:13:"attributesKey";s:5:"attrs";N;s:9:"converter";b:0;}s:10:"allGrouped";a:4:{s:8:"relation";a:1:{i:0;s:20:"\XLite\Model\Country";}s:7:"keyType";s:13:"attributesKey";s:5:"attrs";N;s:9:"converter";b:0;}s:5:"codes";a:4:{s:5:"attrs";a:1:{i:0;s:8:"state_id";}s:7:"keyType";s:13:"attributesKey";s:8:"relation";a:0:{}s:9:"converter";b:0;}s:7:"all_dto";a:4:{s:8:"relation";a:1:{i:0;s:20:"\XLite\Model\Country";}s:7:"keyType";s:13:"attributesKey";s:5:"attrs";N;s:9:"converter";b:0;}}

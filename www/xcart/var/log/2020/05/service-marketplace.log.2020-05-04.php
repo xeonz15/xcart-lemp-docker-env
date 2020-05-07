@@ -1,0 +1,12 @@
+<?php die(); ?>
+[2020-05-04 16:23:55] 190ff8a24855a3262f290a75c9d87736 service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\Set"
+[2020-05-04 16:23:56] 190ff8a24855a3262f290a75c9d87736 service-marketplace.INFO: Response from marketplace correctly received "XCart\Marketplace\Request\Set"
+[2020-05-04 16:23:57] d120a82e45af0970c1f456f214984c81 service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\Addons"
+[2020-05-04 16:23:59] d120a82e45af0970c1f456f214984c81 service-marketplace.INFO: Response from marketplace correctly received "XCart\Marketplace\Request\Addons"
+[2020-05-04 16:24:00] d120a82e45af0970c1f456f214984c81 service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\Cores"
+[2020-05-04 16:24:31] bc6bbad39080ace47c2cee21a24d2f5e service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\PaymentMethods"
+[2020-05-04 16:24:31] 186f7fe8d4356d5118458fad9cc91ef9 service-marketplace.INFO: Request to marketplace "XCart\Marketplace\Request\Set"
+[2020-05-04 16:24:32] 186f7fe8d4356d5118458fad9cc91ef9 service-marketplace.INFO: Response from marketplace correctly received "XCart\Marketplace\Request\Set"
+[2020-05-04 16:24:32] bc6bbad39080ace47c2cee21a24d2f5e service-marketplace.INFO: Response from marketplace correctly received "XCart\Marketplace\Request\PaymentMethods"
+[2020-05-04 16:24:33] b36aa74788e031b34642543a72ab9260 service-marketplace.INFO: Request to marketplace "/sites/default/files/shm-5.4.json"
+[2020-05-04 16:24:34] b36aa74788e031b34642543a72ab9260 service-marketplace.INFO: Response from marketplace correctly received "/sites/default/files/shm-5.4.json"
